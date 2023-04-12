@@ -39,32 +39,30 @@ export default function App() {
 
   return (
 <div>
-      <div className="card">
+  <div className="card">
     <div className="header">
       <div className="logo">
-        <img  src={require('./assets/icons/logo.png')}/>
+        <img src={require('./assets/icons/logo.png')} />
       </div>
       <div className="social">
         <a href="https://www.facebook.com/profile.php?id=100091325427403" title="Facebook" target="_blank" rel="noopener noreferrer">
-          <IconFacebook style={{height:35,width:35}} className="icon" />
+          <IconFacebook style={{ height: 35, width: 35 }} className="icon" />
         </a>
         <a href="https://www.instagram.com/thebobawayindia/" title="Twitter" target="_blank" rel="noopener noreferrer">
-          <IconTwitter style={{height:35,width:35}}  className="icon" />
+          <IconTwitter style={{ height: 35, width: 35 }} className="icon" />
         </a>
-      
       </div>
     </div>
-    <img style={{ height: 600, width: 700, alignSelf: 'center' }} src={require('./assets/bubble.gif')} />
-    <div  className="App">
-      <CountdownCircleTimer 
+    <img style={{ height: 'auto', maxWidth: '100%', alignSelf: 'center' }} src={require('./assets/bubble.gif')} />
+    <div className="App countdown-wrapper">
+      <CountdownCircleTimer
         {...timerProps}
         colors="#fff"
-       
         duration={daysDuration}
         initialRemainingTime={remainingTime}
       >
         {({ elapsedTime, color }) => (
-          <span style={{ color  }}>
+          <span style={{ color }}>
             {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
           </span>
         )}
@@ -116,17 +114,14 @@ export default function App() {
       </CountdownCircleTimer>
     </div>
     <div className="content">
-
       <div className="title-holder">
-        <h1 style={{ fontSize: 60 }}>All You Need In some boba therapy.</h1>
-        <p>Coming soon..... Stay tuned. </p>
+        <h1 style={{ fontSize: 36, textAlign: 'center' }}>All You Need In some boba therapy.</h1>
+        <p style={{ textAlign: 'center' }}>Coming soon..... Stay tuned. </p>
       </div>
-      
     </div>
-    
   </div>
-    
-    </div>
+</div>
+
   );
 }
 
