@@ -1,0 +1,32 @@
+.footer-container{
+
+    background-color : rgb(253, 83, 22);
+padding: 10px;
+}
+.footer-heading{
+    font-size: 30px;
+
+}
+.footer-boba-info{
+width: 30%;
+font-weight: 25px;
+color:white
+}
+.footer-social-media{
+
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    color:white;
+    width: 30%;
+    font-size: 20px;
+}
+.footer-boba-timing{
+    text-align: end;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight:normal
+}

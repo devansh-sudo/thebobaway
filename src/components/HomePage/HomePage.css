@@ -1,0 +1,56 @@
+.home-part-1{
+display: flex;
+justify-content: space-around;
+margin: 1%;
+font-weight: bold;
+color: white;
+
+
+}
+
+    .home-part-1-text{
+width: 45%;
+
+padding-top: 11%;
+    }
+    .home-part-1-img{
+width: 50%;    
+}
+
+.home-page-part-2{
+display: flex;
+justify-content: space-between;
+}
+.popular-boba-img{
+    height: 400px;
+    width: 45%;
+    border: 1px solid red;
+}
+.type-boba-box{
+    width: 45%;
+
+}
+
+.four-type-boba{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.four-type-boba img {
+height: 60%;
+}
+.popular-boba-text-img{
+color : orangered;
+font-size: large;
+}
+
+.love-tea-map{
+background-color: black;
+display: flex;
+
+}
+.love-tea-map div{
+
+padding: 20px;
+    }

@@ -1,0 +1,44 @@
+
+
+.nav-home{
+
+color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-logo{
+    height: 250px;
+    width: 30%;
+   
+}
+.nav-logo img{
+color: aliceblue;
+}
+.all-section{
+width: 50%;
+   
+font-size: 20px;
+    display: flex;
+    gap:20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#nav-explore{
+    font-weight: 545;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.nav-contact{
+    margin-left: 40px;
+border: 0.5px solid white;
+height: 40px;
+width: 20%;
+text-align: center;
+padding: 5px;
+border-radius: 20px;
+font-weight: bold;
+
+}
