@@ -36,7 +36,7 @@ export default function App() {
   
   return (
 <div className='mainDiv'>
-<Navbar />
+{/* <Navbar /> */}
 <AllRoutes />
 <Footer />
 </div>

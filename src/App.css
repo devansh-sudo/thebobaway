@@ -1,3 +1,4 @@
+
 .mainDiv{
   background: linear-gradient(180deg, rgb(221, 97, 43) 0%, rgb(240, 218, 222) 100%);
 }
@@ -127,7 +128,6 @@ a.underlined:hover {
   font-family: sans-serif;
   text-align: center;
   padding-top: 80px;
-  background: conic-gradient(from 91.89deg at 34.4% 100%, #FFFFFF 0deg, rgba(255, 255, 255, 0) 360deg)
 }
 /* 
 .time {

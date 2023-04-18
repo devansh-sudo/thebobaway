@@ -1,17 +1,23 @@
+
+
 .home-part-1{
 display: flex;
 justify-content: space-around;
 margin: 1%;
 font-weight: bold;
 color: white;
-
-
 }
 
     .home-part-1-text{
-width: 45%;
-
-padding-top: 11%;
+       
+       margin:3%;
+       margin-top: 220px;
+        height: 120px;
+       width: 40%;
+        font-weight: 400;
+        font-size: 16.5px;
+        color: #FFFFFF;
+        
     }
     .home-part-1-img{
 width: 50%;    
@@ -24,8 +30,9 @@ justify-content: space-between;
 .popular-boba-img{
     height: 400px;
     width: 45%;
-    border: 1px solid red;
+    
 }
+
 .type-boba-box{
     width: 45%;
 
@@ -42,7 +49,8 @@ height: 60%;
 }
 .popular-boba-text-img{
 color : orangered;
-font-size: large;
+
+height: 80px;
 }
 
 .love-tea-map{
@@ -54,3 +62,24 @@ display: flex;
 
 padding: 20px;
     }
+/* // */
+.boba,
+.image-30-icon {
+  /* position: absolute; */
+  top: 968px;
+}
+.image-30-icon {
+  left: 815px;
+  width: 479px;
+  height: 89px;
+  object-fit: cover;
+}
+.boba {
+  left: 1115px;
+  font-size: var(--font-size-39xl);
+  font-weight: 600;
+  color: var(--color-orangered);
+  display: inline-block;
+  width: 174px;
+  height: 93px;
+}

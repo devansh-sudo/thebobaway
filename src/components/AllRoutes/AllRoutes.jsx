@@ -8,7 +8,6 @@ export const AllRoutes=()=>{
         <Routes>
 <Route path="/" element={<HomePage />} />
 <Route path="*" element={<HomePage />} />
-
-        </Routes>
+</Routes>
     </div>)
 }
