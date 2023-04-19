@@ -1,0 +1,110 @@
+.footer-container{
+    display: flex;
+    border:"1px solid red";
+    /* background-color : rgb(253, 83, 22); */
+padding: 10px;
+color:white;
+gap:20px;
+/* background-image: url("image52.png"); */
+font-family: 'Popins', sans-serif;
+}
+.footer-left-part{
+    /* border:1px solid teal;    */
+    width: 60%;
+}
+.footer-right-part{
+margin-top: 70px; 
+   
+width: 40%;
+}
+.footer-heading{
+    font-weight: 800;
+    font-size: 28px;
+   
+
+}
+.footer-boba-info{
+
+    width: 48%;
+
+    left: 70px;
+    top: 5254px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+.copy-right-reclame{
+    width: 60%;
+margin-top: 25px;
+    left: 70px;
+    top: 5254px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.footer-social-media{
+margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    
+    color:white;
+    width: 30%;
+    font-size: 25px;
+}
+.footer-boba-timing{
+    text-align: end;
+    left: 70px;
+    top: 5254px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.7);
+margin-bottom: 10px;
+margin-top: 5px;
+}
+.footer-copyright{
+    
+    text-align: end;
+    left: 70px;
+    top: 5254px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.footer-category{
+    display: flex;
+    
+justify-content: space-evenly;
+
+}
+
+.resources{
+font-size: 15px;
+line-height: 2.2;
+
+}
+
+.company{
+    font-size: 15px;
+    line-height: 2.2;
+    
+}
+
+.category-footer-heading{
+
+    margin-bottom: 10px;
+    font-weight: 600;
+}

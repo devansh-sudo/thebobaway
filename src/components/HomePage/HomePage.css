@@ -1,0 +1,112 @@
+
+.popular-boba{
+  height: 20%;
+  width: 70%;
+  margin-left: -20px;
+}
+.home-part-1{
+display: flex;
+justify-content: space-around;
+font-weight: bold;
+color: white;
+border-bottom-right-radius: 400px 100px;
+background: linear-gradient(0.25turn, #fdb777, #FE611D);
+
+}
+.boba {
+  left: 1115px;
+  font-size: var(--font-size-39xl);
+  font-weight: 600;
+  color: var(--color-orangered);
+  display: inline-block;
+  width: 174px;
+  height: 93px;
+}
+.boba,
+.image-30-icon {
+  position: absolute;
+  top: 968px;
+}
+
+    .home-part-1-text{
+       
+       margin:3%;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+       width: 40%;
+        font-weight: 400;
+        font-size: 16.5px;
+        color: #FFFFFF;
+        
+    }
+    .home-part-1-img{
+width: 50%; 
+border:"1px solid red";
+
+}
+
+.home-page-part-2{
+display: flex;
+margin-top: 7em;
+justify-content: space-between;
+}
+.popular-boba-img{
+    height:50%;
+    width: 40%;
+   
+    
+}
+
+.type-boba-box{
+    width: 45%;
+
+}
+
+.four-type-boba{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.four-type-boba img {
+height: 60%;
+}
+.popular-boba-text-img{
+color : #000;
+
+height: 80px;
+}
+
+.love-tea-map{
+background-color: black;
+display: flex;
+
+}
+.love-tea-map div{
+
+padding: 20px;
+    }
+/* // */
+.boba,
+.image-30-icon {
+  /* position: absolute; */
+  top: 968px;
+}
+.image-30-icon {
+  left: 815px;
+  width: 479px;
+  height: 89px;
+  object-fit: cover;
+}
+.boba {
+  left: 1115px;
+  font-size: var(--font-size-39xl);
+  font-weight: 600;
+  color: var(--color-orangered);
+  display: inline-block;
+  width: 174px;
+  height: 93px;
+}

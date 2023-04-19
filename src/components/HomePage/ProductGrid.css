@@ -1,0 +1,44 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(3, 180px);
+    gap: 10px;
+ background-color: #f1f1f1;
+    padding-left: 150px;
+    margin-top: 20px;
+    grid-template-areas:
+        " a a b b"
+        "a a d e"
+        "c c d e";
+}
+.product-container>div {
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    
+
+}
+.product-container>div:nth-child(1) {
+    grid-area: a;
+    background-color: blueviolet;
+}
+
+.product-container>div:nth-child(2) {
+    grid-area: b;
+    background-color: orange;
+}
+
+.product-container>div:nth-child(5) {
+    grid-area: e;
+    background-color: yellow;
+}
+.product-container>div:nth-child(3) {
+    grid-area: c;
+    background-color: skyblue;
+}
+
+.product-container>div:nth-child(4) {
+    grid-area: d;
+    background-color: teal;
+} 
