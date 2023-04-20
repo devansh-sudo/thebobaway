@@ -71,7 +71,7 @@ export const ContactPage=()=>{
       };
 
     return (
-        <div className="contact-container container-fluid " style={{backgroundColor:'#fdb777'}} >
+        <div className="contact-container container-fluid " id="contact" style={{backgroundColor:'#fdb777'}} >
             <div className="contact-container-part-a">
                 <h2>Request a free franchise consultation</h2>
                 <button className="reqst-btn" style={{fontSize:16,textAlign:'center'}}>Read more</button>
@@ -88,7 +88,7 @@ export const ContactPage=()=>{
                 <form method="POST">
               <div className='contact_form'>
 
-                <label className=' form-Text h3'>Name</label >
+                <label className='form-Text h3'>Name</label >
                 <input type="text" className="form-inputs" placeholder='Name'  id="" 
                 name="name"  
                 value={userData.name}
@@ -103,7 +103,7 @@ export const ContactPage=()=>{
                   onChange={postUserData} />
 
                 <label className='formText h3' >City</label >
-                <input className="form-inputs"   id="" name="city" type="text" placeholder='College Name' value={userData.city}
+                <input className="form-inputs"   id="" name="city" type="text" placeholder='City Name' value={userData.city}
                   onChange={postUserData} />
                 <div className='submitbtn_div'>
                   <button onClick={submitData} type="submit"className="submit_btn">Submit</button>

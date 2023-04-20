@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import "./SliderHome.css"
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import slide_image_1 from '../../assets/Images/bobaAdd1.jpeg';
+import slide_image_1 from '../../assets/Images/bobaAdd1.jpg';
 import slide_image_2 from '../../assets/Images/bobaSaudagar.jpg';
 import slide_image_3 from '../../assets/Images/bobakoth.jpg';
 
@@ -48,7 +48,7 @@ export const SliderHome=()=> {
          <div className='slide-img-div'> 
          <img src={slide_image_1} alt="slide_image" />
          <div className='multiple-shop-address'>
-          <div className='multiple-shop-address-text'>AUNADH,PUNE</div>
+          <div className='multiple-shop-address-text'>AUNDH,PUNE</div>
           <div className='send-location-icon'><a href={address[0]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div>
          </div>
          </div>
@@ -57,7 +57,7 @@ export const SliderHome=()=> {
         <div className='slide-img-div'>
           <img src={slide_image_2} alt="slide_image" />
           <div className='multiple-shop-address'>
-          <div className='multiple-shop-address-text'><text style={{textAlign:"center"}}>SAUDAGAR,PUNE</text></div>
+          <div className='multiple-shop-address-text'><text style={{paddingBottom:"15px"}}> PIMPLE SAUDAGAR,PUNE</text></div>
           <div className='send-location-icon'><a href={address[1]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div>
          </div>
         </div>

@@ -62,14 +62,16 @@ margin-bottom: 10px;
     padding-top: 30px;
     height: 70%;
     background: #FFFFFF;
-    
-}
+    }
 
 .contact-container-part-b input{
     border-radius: 10px;
     background-color: #f5f5f5;
     width: 100%;
+    padding: 5px;
     height: 35px;
+    margin-top: 3px;
+margin-bottom: 12px;    
 border:1px solid #f5f5f5
 }
 .contact-container-part-b button{
@@ -81,4 +83,5 @@ color: white;
     font-weight: bold;
     font-size: 16px;
 border: 1px solid #FE611D;
+margin-top: 15px;
 }

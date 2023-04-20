@@ -7,6 +7,7 @@ import map from '../../assets/Images/map1.png';
 import { Navbar } from "../Navbar/Navbar";
 import { BobaMap } from "./BobaMap";
 import { ProductGrid } from "./ProductGrid";
+import { Gallery } from "./Gallery";
 
 
 export const HomePage=()=>{
@@ -46,7 +47,8 @@ export const HomePage=()=>{
 <SliderHome />
 
 <ContactPage />
-<ProductGrid />
+{/* <ProductGrid /> */}
+<Gallery />
 <InstagramPage />
  <div className="love-tea-map img-fluid">
     <div><img src={loveboba} alt="love-tea" /></div>
