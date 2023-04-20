@@ -47,11 +47,11 @@ export const HomePage=()=>{
 <SliderHome />
 
 <ContactPage />
-{/* <ProductGrid /> */}
-<Gallery />
+<ProductGrid />
+{/* <Gallery /> */}
 <InstagramPage />
  <div className="love-tea-map img-fluid">
-    <div><img src={loveboba} alt="love-tea" /></div>
+    <div><img src="image-45.png" alt="love-tea" /></div>
     <div><BobaMap /></div>
  </div>
     </div>)

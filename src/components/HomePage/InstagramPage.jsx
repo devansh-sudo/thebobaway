@@ -90,7 +90,7 @@ export const InstagramPage=()=>{
                   ))}
                 </Carousel>
               </div>
-              <button style={{padding:"5px",margin:"5px",alignItems:"center",backgroundColor:"gray",border:"none",width:"18%",marginLeft:"40%",height:"40px",borderRadius:"10px",color:"white",fontWeight:"bold",fontSize:"20px"}}><a style={{textDecoration:"none",color:"white"}} href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y=">Follow</a></button>
+              <button className="insta-follow-btn" ><a className="insta-follow-link"  href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y=">FOLLOW</a></button>
             </div>
           );
 }

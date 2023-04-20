@@ -44,7 +44,7 @@ export const SliderHome=()=> {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
+        <SwiperSlide >
          <div className='slide-img-div'> 
          <img src={slide_image_1} alt="slide_image" />
          <div className='multiple-shop-address'>

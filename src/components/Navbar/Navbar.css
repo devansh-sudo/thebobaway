@@ -3,6 +3,8 @@
 
 text-align: center;
 padding-top: 6px;
+text-decoration:none;
+color: #ffffff;
 }
 .logo{
     position: absolute;
