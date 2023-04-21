@@ -4,10 +4,10 @@ export const Footer=()=>{
  return (<div className="footer-container" style={{backgroundImage:`url("footer.png")`}}>
 {/* left part for footer */}
 <div className="footer-left-part">
-<div className="footer-heading"><h1>The Boba way India</h1></div>        
+<div className="footer-heading"><h1>The Boba Way India</h1></div>        
 
 <br />
-<div className="footer-boba-info"><p>The Boba way was started by College friends from diverse backgrounds,with a common love for boba! Combining their diverse backgrounds and a love for flavorful bubblel tea,our co-founders have handpicked the ingredients for a boba-tastic experience.</p></div>
+<div className="footer-boba-info"><p>The Boba Way was started by the College friends from diverse backgrounds, with a common love for Boba! Combining their diverse backgrounds and a love for flavourful Bubble Tea, our Co-founders have handpicked the best ingredients for a Boba-tastic experience.</p></div>
 <br />
 <br />
 <div className="footer-social-media">
@@ -18,7 +18,7 @@ export const Footer=()=>{
 </div>
 <br />
 <br />
-<div className="copy-right-reclame"><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a style={{textDecoration:"none",color:"rgba(255, 255, 255, 0.7)"}} href="https://reclamehub.com/index.html"  >Reclamehub</a></p></div>
+<div className="copy-right-reclame"><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link"  href="https://reclamehub.com/index.html"  >Reclamehub</a></p></div>
 </div>
 {/* right part of footer */}
 <div className="footer-right-part">
@@ -36,14 +36,14 @@ export const Footer=()=>{
 <p>About Us</p>
 <p>Press</p>
 <p>FAQs</p>
-<p>Contact us</p>
+<p>Contact Us</p>
         </div>
         
     </div>
     <br />
 <div className="footer-boba-timing">
-    <p>HOURS</p>
-    <p>Sunday to Satuerday:10AM-10PM</p>
+    <p>HOURS:</p>
+    <p>Monday To Sunday: 11AM - 11PM</p>
 </div>
 <div className="footer-copyright">
     <div><p>Privacy Policy · Terms of service</p></div>

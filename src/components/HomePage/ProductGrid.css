@@ -44,3 +44,37 @@ padding: 40px;
     grid-area: d;
     /* background-color: teal; */
 } 
+
+
+@media all and (min-width:300px)  and (max-width: 767px) {
+    /* For mobile screens */
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 150px);
+        gap: 20px;
+        padding: 20px;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e";
+    }
+}
+
+
+@media all and (min-width:768px)  and (max-width: 1200px) {
+    /* For mobile screens */
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        gap: 20px;
+        padding: 20px;
+        grid-template-areas:
+        "a b"
+        "a b"
+        "c d"
+        "e"
+        
+    }
+}

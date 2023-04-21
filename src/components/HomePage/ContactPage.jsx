@@ -73,7 +73,7 @@ export const ContactPage=()=>{
     return (
         <div className="contact-container container-fluid " id="contact" style={{backgroundColor:'#fdb777'}} >
             <div className="contact-container-part-a">
-                <h2>Request a free franchise consultation</h2>
+                <h2>Request A Free Franchise Consultation</h2>
                 <button className="reqst-btn" style={{fontSize:16,textAlign:'center'}}>Read more</button>
 
                 <div className="img44-div">
@@ -82,7 +82,7 @@ export const ContactPage=()=>{
              
             </div>
             <div className="contact-container-part-b">
-                <h2 style={{textAlign:"center",fontSize:"26px"}}>Get a franchise</h2>
+                <h2 style={{textAlign:"center",fontSize:"26px"}}>Get A Franchise</h2>
                 <br />
                 <br />
                 <form method="POST">
@@ -94,12 +94,12 @@ export const ContactPage=()=>{
                 value={userData.name}
                 onChange={postUserData} 
                 />
-                <label className='formText h3'>Email</label >
+                <label className='formText h3' >Email</label >
                 <input className="form-inputs"   id="" name="email" type="email" placeholder='Email' value={userData.email}
                   onChange={postUserData} />
 
                 <label className='formText h3' >Phone number</label >
-                <input className="form-inputs"   id="" name="phoneNo" type="number" placeholder='Mob.No' value={userData.phoneNo}
+                <input className="form-inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No' value={userData.phoneNo}
                   onChange={postUserData} />
 
                 <label className='formText h3' >City</label >
