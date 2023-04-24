@@ -37,10 +37,10 @@ export const HomePage=()=>{
                         <div className="four-type-boba">
                             <div>
                                 
-                                <img src="bobatype-1.png" alt="bobatype" /><p className="boba-type-text" >Berry-Hazelnut Boba</p></div>
-                            <div><img src="bobatype-2.png" alt="bobatype" /><p className="boba-type-text">Soothing Blueberry Boba</p></div>
-                            <div><img src="bobatype-1.png" alt="bobatype" /><p className="boba-type-text">Chocolate Delight Boba</p></div>
-                            <div><img src="bobatype-1.png" alt="bobatype" /><p className="boba-type-text">Strawberry Sparkle Boba</p></div>
+                                <img src="bobatype-1.png" alt="bobatype" /><p className="boba-type-text" >Berry-Hazelnut</p></div>
+                            <div><img src="bobatype-2.png" alt="bobatype" /><p className="boba-type-text">Soothing Blueberry</p></div>
+                            <div><img src="bobatype-3.png" alt="bobatype" /><p className="boba-type-text">Chocolate Delight</p></div>
+                            <div><img src="bobatype-4.png" alt="bobatype" /><p className="boba-type-text">Strawberry Sparkle</p></div>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export const HomePage=()=>{
 <SliderHome />
 
 <ContactPage />
-<ProductGrid />
+<ProductGrid /> 
 {/* <Gallery /> */}
 <InstagramPage />
  <div className="love-tea-map">

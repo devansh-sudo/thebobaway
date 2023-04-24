@@ -50,9 +50,9 @@ padding: 40px;
     /* For mobile screens */
     .product-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 150px);
+        grid-template-rows: repeat(5, 180px);
         gap: 20px;
-        padding: 20px;
+        padding: 5px;
         grid-template-areas:
             "a"
             "b"

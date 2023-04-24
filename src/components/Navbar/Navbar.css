@@ -103,7 +103,7 @@ display:none
 
 
 
-  @media all and (min-width:768px)  and (max-width: 1140px) {
+  @media all and (min-width:768px)  and (max-width: 1024px) {
     .logo {
       width: 90px;
       height: 90px;
@@ -123,13 +123,15 @@ display:none
         color: white;
         display: flex;
         justify-content: space-around;
-        gap: 380px;
+        gap: 25%;
+        
         height: 100px;
         background: linear-gradient(0.25turn, #fdb777, #fe611d);
       }
     .all-section {
-        
-        gap: 12px;
+  
+  padding-left: 10%;      
+        gap: 14px;
         
               }
               .nav-text {
