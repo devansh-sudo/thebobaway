@@ -1,7 +1,7 @@
 .footer-container{
     display: flex;
 
-    /* border:"1px solid red"; */
+    
     /* background-color : rgb(253, 83, 22); */
 padding: 35px;
 color:white;
@@ -9,7 +9,7 @@ gap:20px;
 
 }
 .footer-left-part{
-    /* border:1px solid teal;    */
+    
     width: 60%;
 }
 .footer-right-part{
@@ -129,16 +129,16 @@ color:rgba(255, 255, 255, 0.7) ;
     .footer-container{
         display: flex;
         flex-wrap: wrap;
-        border:"1px solid red";
+        
         /* background-color : rgb(253, 83, 22); */
     padding: 35px;
     color:white;
     gap:20px; 
-    /* font-family: 'Popins', sans-serif; */
+    
     }
 
     .footer-left-part{
-        /* border:1px solid teal;    */
+        
         width: 100%;
     }
     .footer-boba-info{
