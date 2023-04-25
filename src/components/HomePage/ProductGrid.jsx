@@ -3,7 +3,7 @@ import "./ProductGrid.css"
 export const ProductGrid=()=>{
     return(
     <div style={{backgroundImage:`url("happy-background.png")`}}>
-    <h1 style={{textAlign:"center",fontSize:"50px"}}>Our Happy Customers</h1>    
+    <h1 className="new-section-heading" >OUR HAPPY <span style={{color:"#fe611d"}}>CUSTOMERS</span></h1>    
     <div class="product-container">
     
     <div><img className="img-fluid" height={"100%"} width={"100%"} src="happy-1.png" alt="img" /></div>

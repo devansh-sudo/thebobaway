@@ -1,12 +1,12 @@
 .footer-container{
     display: flex;
 
-    border:"1px solid red";
+    /* border:"1px solid red"; */
     /* background-color : rgb(253, 83, 22); */
 padding: 35px;
 color:white;
 gap:20px; 
-font-family: 'Popins', sans-serif;
+
 }
 .footer-left-part{
     /* border:1px solid teal;    */
@@ -110,9 +110,9 @@ text-decoration: none;
 color:rgba(255, 255, 255, 0.7) ; 
 
 } 
-.company-link :hover{
+/* .company-link :hover{
     color:orange
-}
+} */
 
 /* .company-link :hover{
     color:orange
@@ -134,7 +134,7 @@ color:rgba(255, 255, 255, 0.7) ;
     padding: 35px;
     color:white;
     gap:20px; 
-    font-family: 'Popins', sans-serif;
+    /* font-family: 'Popins', sans-serif; */
     }
 
     .footer-left-part{

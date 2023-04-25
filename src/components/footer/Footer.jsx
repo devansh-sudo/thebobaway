@@ -1,4 +1,4 @@
-import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn} from "react-icons/fa"
+import {FaFacebookF,FaTwitter,FaInstagram,FaWhatsapp} from "react-icons/fa"
 import "./Footer.css"
 export const Footer=()=>{
  return (<div className="footer-container" style={{backgroundImage:`url("footer.png")`}}>
@@ -12,8 +12,8 @@ export const Footer=()=>{
 <br />
 <div className="footer-social-media">
     <div><a style={{textDecoration:"none",color:"white"}} href="https://m.facebook.com/people/The-Boba-Way-India/100083239663402/"><FaFacebookF color="" /></a></div>
-<div><FaTwitter /></div>
-<div><FaLinkedinIn /></div>
+<div><a style={{textDecoration:"none",color:"white"}} href="https://twitter.com/thebobawayindia"><FaTwitter /></a></div>
+<div><a style={{textDecoration:"none",color:"white"}} href="https://api.whatsapp.com/send/?phone=919518785637&text&type=phone_number&app_absent=0"><FaWhatsapp /></a></div>
 <div> <a style={{textDecoration:"none",color:"white"}} href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y="><FaInstagram /></a></div>
 </div>
 <br />

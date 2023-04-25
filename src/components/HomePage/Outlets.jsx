@@ -47,7 +47,7 @@ function Outlets() {
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
             <img src={img} alt={img} />
-          <div>{address[idx]}</div>
+          <div></div>
           </div>
         ))}
       </Slider>

@@ -22,7 +22,7 @@ export const Navbar = () => {
           <div className="nav-text">About Us</div>
         </Link>
         <div className="nav-text">Explore</div>
-        <div className="nav-text">Franchise</div>
+        <div className="nav-text" > <a href="#contact" style={{ textDecoration: "none", color: "white" }}>Franchise</a></div>
         <div className="nav-text">Menu</div>
         <div className="nav-contact nav-text">
           <a href="#contact" style={{ textDecoration: "none", color: "white" }}>

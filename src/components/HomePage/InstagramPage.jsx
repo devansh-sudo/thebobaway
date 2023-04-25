@@ -73,7 +73,7 @@ export const InstagramPage=()=>{
 
     return (
             <div  style={{paddingTop:"30px",marginBottom:"20px"}}>
-<h1 style={{textAlign:"center",fontSize:"50px"}}>Follow us on Instagram</h1>        
+<h1 style={{textAlign:"center",fontSize:"50px"}}>FOLLOW US ON <span style={{color:"#fe611d"}}>INSTAGRAM</span></h1>        
               <div style={{height:"400px"}} >
                 <Carousel  infiniteLoop={"true"} autoPlaySpeed={4000} breakPoints={breakPoints}>
                   {homeData?.map((el) => (
@@ -90,7 +90,7 @@ export const InstagramPage=()=>{
                   ))}
                 </Carousel>
               </div>
-              <button className="insta-follow-btn" ><a className="insta-follow-link"  href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y=">FOLLOW</a></button>
+              <a className="insta-follow-link"  href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y="><button className="insta-follow-btn" >FOLLOW</button></a>
             </div>
           );
 }

@@ -1,3 +1,8 @@
+.new-section-heading{
+    text-align:center;
+    font-size:50px;
+    font-weight: 600;
+}
 .product-container {
     display: grid;
     
@@ -7,7 +12,8 @@
  
    width: 80%;
    margin: auto;
-padding: 40px;
+
+   padding: 40px;
    grid-template-areas:
         " a a b b"
         "a a d e"

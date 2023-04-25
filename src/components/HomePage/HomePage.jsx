@@ -12,7 +12,6 @@ import { Gallery } from "./Gallery";
 
 export const HomePage=()=>{
 
-
     return (
         <div style={{backgroundColor:'#f1f1f1'}} >
             <div   >
@@ -50,6 +49,7 @@ export const HomePage=()=>{
 {/* <SliderHome /> */}
 
 <ContactPage />
+<br />
 <ProductGrid /> 
 {/* <Gallery /> */}
 <InstagramPage />

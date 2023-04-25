@@ -175,9 +175,9 @@
   }
 
   .home-part-1-img img {
-    height: 100%;
+    height: 90%;
     width: 80%;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 20%;
   }
 
@@ -189,18 +189,18 @@
     /* background-image: url(image-29@2x.png); */
 
     margin-top: 100px;
-border:1px solid teal;
+/* border:1px solid teal; */
 padding-bottom: 100px;  }
 
   .type-boba-box {
     width: 55%;
-   border:1px solid red;
+   /* border:1px solid red; */
   }
 
   .popular-boba-img img {
     height: 100%;
     width: 100%;
-border:1px solid blue;
+/* border:1px solid blue; */
 
   }
 
@@ -208,7 +208,7 @@ border:1px solid blue;
   .popular-boba-img {
     height: 90%;
     width: 60%;
-border:1px solid pink;
+/* border:1px solid pink; */
     margin: auto
   }
 
@@ -217,7 +217,8 @@ border:1px solid pink;
     width: 100%;
     
 
-border:1px solid black;  }
+/* border:1px solid black; */
+  }
 
   .type-boba-box {
     width: 58%;
@@ -241,14 +242,14 @@ border:1px solid black;  }
        display: grid;
 
     grid-template-columns: repeat(2, 1fr);
-border:1px solid orange
+/* border:1px solid orange */
   }
 
   .four-type-boba img {
     height: 80%;
     width: 80px;
     margin-left: 15px;
-border:1px solid violet  ;
+/* border:1px solid violet  ; */
 margin-top: 10px; 
 padding-top: 10px;
   }
@@ -288,7 +289,7 @@ padding-top: 10px;
 
   .home-part-1-img {
     width: 50%;
-    border: "1px solid red";
+    /* border: "1px solid red"; */
 
   }
 
@@ -333,9 +334,9 @@ padding-top: 10px;
   }
 
   .home-part-1-img img {
-    height: 110%;
-    width: 60%;
-    margin-top: 45px;
+    height: 120%;
+    width: 40%;
+    margin-top: 80px;
     margin-left: 20%;
     
   }
