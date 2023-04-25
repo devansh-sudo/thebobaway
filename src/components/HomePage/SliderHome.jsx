@@ -9,9 +9,9 @@ import 'swiper/css/navigation';
 import "./SliderHome.css"
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import slide_image_1 from '../../assets/Images/bobaAdd1.jpg';
-import slide_image_2 from '../../assets/Images/bobaSaudagar.jpg';
-import slide_image_3 from '../../assets/Images/bobakoth.jpg';
+import slide_image_1 from '../../assets/Images/location1.png';
+import slide_image_2 from '../../assets/Images/location2.png';
+import slide_image_3 from '../../assets/Images/location1.png';
 
 
 
@@ -21,7 +21,7 @@ export const SliderHome=()=> {
   ,`https://maps.app.goo.gl/WgnwQ5pKYnwfCEet6`,`https://maps.app.goo.gl/G938Z5U9sDmEJtFn8`]
 
   return (
-    <div className="container">
+    <div className="container" style={{backgroundImage:`url("happy-background.png)`}}>
       <h1 className="heading">OUR OUTLET LOCATIONS</h1>
       <Swiper
         effect={'coverflow'}
@@ -49,7 +49,7 @@ export const SliderHome=()=> {
          <img src={slide_image_1} alt="slide_image" />
          <div className='multiple-shop-address'>
           <div className='multiple-shop-address-text'>AUNDH,PUNE</div>
-          <div className='send-location-icon'><a href={address[0]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div>
+          {/* <div className='send-location-icon'><a href={address[0]} style={{textDecoration:"none",color:"black"}}></a></div> */}
          </div>
          </div>
         </SwiperSlide>
@@ -58,7 +58,7 @@ export const SliderHome=()=> {
           <img src={slide_image_2} alt="slide_image" />
           <div className='multiple-shop-address'>
           <div className='multiple-shop-address-text'><text style={{paddingBottom:"15px"}}> PIMPLE SAUDAGAR,PUNE</text></div>
-          <div className='send-location-icon'><a href={address[1]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div>
+          {/* <div className='send-location-icon'><a href={address[1]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div> */}
          </div>
         </div>
         </SwiperSlide>
@@ -67,7 +67,7 @@ export const SliderHome=()=> {
           <img src={slide_image_3} alt="slide_image" />
           <div className='multiple-shop-address'>
           <div className='multiple-shop-address-text'>KOTHRUD,PUNE</div>
-          <div className='send-location-icon'><a href={address[2]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div>
+          {/* <div className='send-location-icon'><a href={address[2]} style={{textDecoration:"none",color:"black"}}><MdSend size={60} className='icon-in' /></a></div> */}
          </div>
           </div>
         </SwiperSlide>

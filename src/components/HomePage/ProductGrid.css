@@ -63,7 +63,7 @@ padding: 40px;
 }
 
 
-@media all and (min-width:768px)  and (max-width: 1200px) {
+@media all and (min-width:768px)  and (max-width: 1500px) {
     /* For mobile screens */
     .product-container {
         grid-template-columns: repeat(2, 1fr);

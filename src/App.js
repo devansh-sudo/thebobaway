@@ -7,16 +7,18 @@ import "./App.css";
 import { Navbar } from './components/Navbar/Navbar';
 import { AllRoutes } from './components/AllRoutes/AllRoutes';
 import { Footer } from './components/footer/Footer';
+import Swipe from './components/HomePage/Outlets';
+import Outlets from './components/HomePage/Outlets';
 
 
 export default function App() {
 
   return (
     <div className='mainDiv'>
-     <Navbar />
-<AllRoutes />
-<Footer /> 
-
+ <Navbar />
+<AllRoutes /> 
+<Footer />  
+{/* <Outlets /> */}
       
     </div>
 

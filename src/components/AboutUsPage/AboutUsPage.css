@@ -1,0 +1,115 @@
+.about-part-1-container{
+
+    display: flex;
+gap:7%;
+}
+.aboutheadingimg-div{
+border-bottom: 1px solid black;
+width: 70%;
+}
+.aboutheadingimg-div img {
+    
+}
+.about-intro-div{
+margin: 10px;
+    /* border:1px solid red; */
+    margin-top: 30px;
+    width: 45%;
+    font-weight: bold;
+    padding-right: 80px;
+
+}
+
+.about-top-info{
+    margin-top: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.about-user-info{
+    margin-top: 30px;
+    display: flex;
+    gap:10%;
+}
+
+.about-user-info h1{
+    color:#fe611d;
+    font-size: 55px;
+}
+
+.chock-2-boba-img{
+    
+    height: 100px;
+    
+    align-items: end;
+    padding-left:64%;
+}
+
+.chock-2-boba-img img{
+    height: 250px;
+    width: 260px;
+padding-left: 60px;    
+}
+
+.about-features-heading-button{
+    display: flex;
+}
+
+.about-part-2-heading{
+    font-size: 25px;
+    width: 65%;
+    border: 1px solid orange;
+}
+.about-features-section{
+    display:flex;
+justify-content: space-around;
+    border:1px solid red;
+}
+.about-features-section-single-div{
+width: 20%;
+    border:1px solid blue;
+}
+
+.about-icon-heading{
+    font-weight: 600;
+    font-size: 25px;
+}
+.about-icon-div{
+
+    border:1px solid red;
+    margin-top: 20px;
+    width: 20%;
+    /* margin: auto; */
+}
+
+.about-part-2-button{
+    /*  */
+    
+align-items: end;
+    
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+
+.about-us-container-part-2{
+
+padding: 10px;
+padding-top: 40px;
+}
+.about-part-2-button button{
+    border:1px solid black;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    /* margin-top: 20px; */
+    float: left;
+    background-color: rgb(230, 224, 224);
+}
+.about-button-text{
+    color : black;
+font-size: 20px;
+font-weight: bold;}

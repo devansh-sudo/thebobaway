@@ -18,7 +18,7 @@ export const Navbar = () => {
         </Link>
       </div>
       <div className={`all-section ${isOpen ? "show-menu" : ""}`}>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/about" style={{ textDecoration: "none" }}>
           <div className="nav-text">About Us</div>
         </Link>
         <div className="nav-text">Explore</div>

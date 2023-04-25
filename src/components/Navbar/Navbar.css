@@ -122,8 +122,63 @@ display:none
         width: 100%;
         color: white;
         display: flex;
-        justify-content: space-around;
-        gap: 25%;
+        
+        gap: 40%;
+        
+        height: 100px;
+        background: linear-gradient(0.25turn, #fdb777, #fe611d);
+      }
+    .all-section {
+  
+  padding-left: 10%;      
+        gap: 14px;
+        
+              }
+              .nav-text {
+                font-size: 14px;
+                text-align: center;
+                padding-top: 6px;
+                text-decoration: none;
+                color: #ffffff;
+              }
+            
+              .nav-contact {
+                border: 1px solid rgb(245, 245, 245);
+                height: 30px;
+                width: 25%;
+                text-align: center;
+                align-items: center;
+                padding: 5px;
+                border-radius: 25px;
+                background-color: #ffffff;
+                background: rgba(213, 221, 213, 0.2);
+                margin-bottom: 10px;
+              }            
+            }
+  
+
+            
+  @media all and (min-width:1025px)  and (max-width: 1500px) {
+    .logo {
+      width: 90px;
+      height: 90px;
+      left: 10px;
+      top: 10px;
+    }
+
+  
+    
+      .nav-burger{
+    display: none;   
+         
+    }
+
+    .nav-home {
+        width: 100%;
+        color: white;
+        display: flex;
+        
+        gap: 50%;
         
         height: 100px;
         background: linear-gradient(0.25turn, #fdb777, #fe611d);

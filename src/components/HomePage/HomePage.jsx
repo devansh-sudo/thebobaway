@@ -47,7 +47,7 @@ export const HomePage=()=>{
             </div>
 
          
-<SliderHome />
+{/* <SliderHome /> */}
 
 <ContactPage />
 <ProductGrid /> 
