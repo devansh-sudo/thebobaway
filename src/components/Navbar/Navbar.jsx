@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Sidebar from "./Sidebar";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+console.log(window.innerWidth)
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -32,7 +33,7 @@ export const Navbar = () => {
         
 
       </div>
-     <div className="nav-burger"><GiHamburgerMenu size={25} /></div>
+     <div className="nav-burger"><Sidebar /></div>
     </div>
   );
 }

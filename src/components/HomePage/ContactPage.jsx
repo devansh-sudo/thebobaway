@@ -75,9 +75,9 @@ export const ContactPage=()=>{
             <div className="contact-container-part-a">
                 <h2>Request A Free Franchise Consultation</h2>
                 <button className="reqst-btn" style={{fontSize:16,textAlign:'center'}}>Read more</button>
-
+<br />
                 <div className="img44-div">
-                <img className="img44" src="bobaformcup.png" />
+                <img className="img44" src="bobaformimg.png" />
                 </div>
              
             </div>

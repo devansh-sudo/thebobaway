@@ -1,0 +1,44 @@
+.nav-sidebar-button {
+    background-color: transparent
+}
+
+.nav-drwa-container {
+
+    background-color: #fe611d
+}
+
+.nav-slide-explore {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /* margin:2px; */
+}
+
+.nav-slide-option {
+    border: 1px solid black;
+    font-weight: 550;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.nav-selector-option {
+    border: 1px solid black;
+    font-weight: 550;
+    font-size: 14px;
+    width: 100%;
+    color: red
+}
+
+.nav-slide-option:hover {
+    background-color: white;
+    color: #fe611d;
+    border: none;
+}
+
+.nav-selector-option:hover {
+    background-color: white;
+    color: #fe611d;
+    border: none;
+}
