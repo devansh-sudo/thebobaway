@@ -1,13 +1,15 @@
 .footer-container-main-div {
     background-color: #ff7e46;
     width: 100%;
+background-image: url("../../../public/happy-background.png");
     /* background-color : rgb(253, 83, 22); */
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 2vh;
     color: white;
     gap: 20px;
-
+    background: linear-gradient(0.25turn, #fdb777, #FE611D);
+    
 }
 .icon-hover :hover{
     color:black;
@@ -16,7 +18,7 @@
 .footer-container {
     display: flex;
     /* background-image: url("../../../public/footermain.png"); */
-    background-color: #ff7e46;
+    /* background-color: #ff7e46; */
 
     /* background-color : rgb(253, 83, 22); */
   
@@ -625,7 +627,6 @@ margin-top: -1px;
         margin-bottom: 1vh;
         display: flex;
         gap: 2vw;
-
         color: white;
         width: 30%;
         font-size: 2vw;

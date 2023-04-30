@@ -74,7 +74,11 @@ export const ContactPage=()=>{
         <div className="contact-container container-fluid " id="contact" style={{backgroundColor:'#fdb777'}} >
             <div className="contact-container-part-a">
                 <h2>Request A Free Franchise Consultation</h2>
-                <button className="reqst-btn" style={{fontSize:16,textAlign:'center'}}>Read more</button>
+                <div>
+                <button className="reqst-btn" style={{fontSize:"20px",textAlign:'center'}}>Read more</button>
+                </div>
+                <br />
+                <br />
 <br />
                 <div className="img44-div">
                 <img className="img44" src="bobaformimg.png" />
@@ -88,21 +92,21 @@ export const ContactPage=()=>{
                 <form method="POST">
               <div className='contact_form'>
 
-                <label className='form-Text h3'>Name</label >
+                <label className='formText-h3'>Name</label >
                 <input type="text" className="form-inputs" placeholder='Name'  id="" 
                 name="name"  
                 value={userData.name}
                 onChange={postUserData} 
                 />
-                <label className='formText h3' >Email</label >
+                <label className='formText-h3' >Email</label >
                 <input className="form-inputs"   id="" name="email" type="email" placeholder='Email' value={userData.email}
                   onChange={postUserData} />
 
-                <label className='formText h3' >Phone number</label >
+                <label className='formText-h3' >Phone number</label >
                 <input className="form-inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No' value={userData.phoneNo}
                   onChange={postUserData} />
 
-                <label className='formText h3' >City</label >
+                <label className='formText-h3' >City</label >
                 <input className="form-inputs"   id="" name="city" type="text" placeholder='City Name' value={userData.city}
                   onChange={postUserData} />
                 <div className='submitbtn_div'>

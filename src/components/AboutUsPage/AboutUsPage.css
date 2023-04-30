@@ -1,15 +1,29 @@
 .about-part-1-container{
 width: 100%;
 display: flex;
-gap:7%;
+justify-content: space-between;
+gap:4vw;
+border:1px solid blue;
+}
+
+.about-boy-img{
+
+    border:1px solid green;
+    width: 40vw;
+   margin-right: 1vw;
+}
+.about-boy-img img{
+max-width: 50vw;
+
+
 }
 .aboutheadingimg-div{
 border-bottom: 1px solid black;
-width: 22vw;
-
+max-width: 22vw;
+border:1px solid brown
 }
 .aboutheadingimg-div img {
-    
+    max-width: 22vw;
 }
 .about-intro-div{
 margin: 1px;
@@ -18,38 +32,47 @@ margin: 1px;
     width: 45vw;
     font-weight: bold;
     padding-right: 1vh;
-
+border:1px solid red;
 }
 
 .about-top-info{
-    margin-top: 35px;
+    margin-top: 4vh;
     border-bottom: 1px solid black;
-    padding-bottom: 30px;
+    padding-bottom: 4vh;
+    font-size: 1.4vw;
 }
 
 .about-user-info{
-    margin-top: 30px;
+    margin-top: 3vh;
     display: flex;
     gap:10%;
 }
 
 .about-user-info h1{
     color:#fe611d;
-    font-size: 5vw;
-}
-
-.chock-2-boba-img{
     
-    height: 100px;
+}
+.about-user-number{
+    font-size: 5vw;
+     color:#fe611d;
+}
+.about-user-number-text{
+    font-size: 1.3vw;
+
+}
+.chock-2-boba-img{
+    border:1px solid cadetblue;
+    height: 8vh;
     
     align-items: end;
     padding-left:23vw;
+    margin-top: -2.5vh;
 }
 
 .chock-2-boba-img img{
-    height: 250px;
-    width: 260px;
-padding-left: 60px;    
+    min-height: 4vh;
+    max-width: 26vw;
+padding-left: 7vw;    
 }
 
 .about-features-heading-button{
@@ -57,7 +80,7 @@ padding-left: 60px;
 }
 
 .about-part-2-heading{
-    font-size: 25px;
+    font-size: 2vw;
     width: 65%;
     border: 1px solid orange;
 }
@@ -113,4 +136,5 @@ padding-top: 40px;
 .about-button-text{
     color : black;
 font-size: 20px;
-font-weight: bold;}
+font-weight: bold;
+}

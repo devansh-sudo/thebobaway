@@ -1,19 +1,18 @@
 .new-section-heading{
     text-align:center;
-    font-size:50px;
+    font-size:3vw;
     font-weight: 600;
+
 }
 .product-container {
     display: grid;
-    
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(3, 150px);
+justify-content: center;    
+    grid-template-columns: repeat(4, 18vw);
+    grid-template-rows: repeat(3, 22vh);
     gap: 10px;
  
-   width: 80%;
+   max-width: 90%;
    margin: auto;
-
-   padding: 40px;
    grid-template-areas:
         " a a b b"
         "a a d e"
@@ -23,7 +22,6 @@
     /* background-color: grey; */
     font-weight: bold;
     color: white;
-    text-align: left;
     
 
 }
@@ -62,10 +60,10 @@
     }
 
     .product-container {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 150px);
+        grid-template-columns: repeat(1, 10vw);
+        grid-template-rows: repeat(5, 25vh);
         gap: 20px;
-        padding: 5px;
+       width: 99vw;
         grid-template-areas:
             "a"
             "b"
@@ -73,10 +71,18 @@
             "d"
             "e";
     }
+
+    .product-container>div {
+        /* background-color: grey; */
+        font-weight: bold;
+        color: white;
+
+    
+    }
 }
 
 
-@media all and (min-width:301px)  and (max-width: 767px) {
+@media all and (min-width:301px)  and (max-width: 700px) {
     /* For mobile screens */
 
     .new-section-heading{
@@ -89,7 +95,7 @@
 
     .product-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 150px);
+        grid-template-rows: repeat(5, 60vw);
         gap: 15px;
         padding: 5px;
         grid-template-areas:
@@ -104,18 +110,26 @@
 }
 
 
-@media all and (min-width:768px)  and (max-width: 1500px) {
-    /* For mobile screens */
+@media all and (min-width:1361px)  and (max-width: 2600px) {
     .product-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 100px);
-        gap: 20px;
-        padding: 20px;
-        grid-template-areas:
-        "a b"
-        "a b"
-        "c d"
-        "e"
+        display: grid;
         
+        grid-template-columns: repeat(4, 15vw);
+        grid-template-rows: repeat(3, 20vh);
+        gap: 10px;
+        
+       max-width: 90%;
+       margin: auto;
+       grid-template-areas:
+            " a a b b"
+            "a a d e"
+            "c c d e";
+    }
+    .product-container>div {
+        /* background-color: grey; */
+        font-weight: bold;
+        
+        
+    
     }
 }
