@@ -35,21 +35,21 @@ export const AboutUs=()=>{
 
 <div className="about-features-section">
     <div className="about-features-section-single-div">
-        <div className="about-icon-div"> <BsShieldCheck size="50" color="#fe611d" /></div>
+        <div className="about-icon-div"> <BsShieldCheck size="70" color="#fe611d" /></div>
         <div>
             <p className="about-icon-heading">Premium Quality</p>
             <p className="about-icon-text">Lorem Ipsum has Been The Industry's standard Dummy Text ever Since</p>
         </div>
     </div>
     <div className="about-features-section-single-div" >
-    <div className="about-icon-div"><MdCategory size="50" color="#fe611d"/> </div>
+    <div className="about-icon-div"><MdCategory size="70" color="#fe611d"/> </div>
         <div >
             <p className="about-icon-heading" >25+ Varieties </p>
             <p className="about-icon-text">Authentic & Flavourful Drinks</p>
         </div>
     </div>
     <div className="about-features-section-single-div">
-    <div className="about-icon-div"><GiPiggyBank size="50" color="#fe611d"/></div>
+    <div className="about-icon-div"><GiPiggyBank size="70" color="#fe611d"/></div>
         <div>
             <p className="about-icon-heading">Pocket Friendly rate</p>
             <p className="about-icon-text">Lorem Ipsum Has Been The Industry's Standrad Dummy Text Ever Since</p>

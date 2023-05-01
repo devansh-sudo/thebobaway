@@ -3,24 +3,22 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 gap:4vw;
-border:1px solid blue;
+
 }
 
 .about-boy-img{
 
-    border:1px solid green;
+    
     width: 40vw;
    margin-right: 1vw;
 }
 .about-boy-img img{
 max-width: 50vw;
-
-
 }
 .aboutheadingimg-div{
 border-bottom: 1px solid black;
 max-width: 22vw;
-border:1px solid brown
+
 }
 .aboutheadingimg-div img {
     max-width: 22vw;
@@ -32,7 +30,6 @@ margin: 1px;
     width: 45vw;
     font-weight: bold;
     padding-right: 1vh;
-border:1px solid red;
 }
 
 .about-top-info{
@@ -61,7 +58,7 @@ border:1px solid red;
 
 }
 .chock-2-boba-img{
-    border:1px solid cadetblue;
+    
     height: 8vh;
     
     align-items: end;
@@ -77,43 +74,51 @@ padding-left: 7vw;
 
 .about-features-heading-button{
     display: flex;
+    justify-content: space-between;
 }
 
 .about-part-2-heading{
-    font-size: 2vw;
+    font-size: 1.6vw;
     width: 65%;
-    border: 1px solid orange;
+    
+}
+
+.about-btn{
+font-size: 2vw;
+
+    padding: 2vw;
+    max-width: 30vw;
 }
 .about-features-section{
     display:flex;
 justify-content: space-around;
-    border:1px solid red;
+    margin-top: 5vh;
 }
 .about-features-section-single-div{
 width: 20%;
-    border:1px solid blue;
+    
 }
 
 .about-icon-heading{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 .about-icon-div{
 
-    border:1px solid red;
-    margin-top: 20px;
+ 
+    margin-top: 1.8vh;
     width: 20%;
+    size:5vw
     /* margin: auto; */
 }
 
 .about-part-2-button{
     /*  */
+  
+    width: 20vw;
+    margin-top: 7vh;
     
-align-items: end;
-    
-    margin-left: 300px;
-    margin-top: 20px;
-    
+
 }
 
 .about-us-container-part-2{
@@ -123,18 +128,25 @@ padding-top: 40px;
 }
 .about-part-2-button button{
     border:1px solid black;
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 30px;
+    /* padding: 3vw;
+padding: 3vw;
+height: 20px;
+border-radius: 30px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.5vw; */
     /* margin-top: 20px; */
-    float: left;
+    width: 15vw;
+    font-weight: 600;
+    font-size: 2vw;
+    border-radius: 10vw;
     background-color: rgb(230, 224, 224);
 }
 .about-button-text{
-    color : black;
-font-size: 20px;
+    color :red;
+font-size: 3vw;
+
 font-weight: bold;
+}
+.about-icon-text{
+    font-size: 1.1vw;
 }

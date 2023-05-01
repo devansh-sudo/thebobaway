@@ -9,10 +9,10 @@ export const Footer = () => {
             <div className="footer-heading"><h1>The Boba Way India</h1></div> 
             <div className="footer-boba-info"><p>The Boba Way was started by the College friends from diverse backgrounds, with a common love for Boba! Combining their diverse backgrounds and a love for flavourful Bubble Tea, our Co-founders have handpicked the best ingredients for a Boba-tastic experience.</p></div>        
             <div className="footer-social-media">
-                <div><a style={{ textDecoration: "none", color: "white" }} href="https://m.facebook.com/people/The-Boba-Way-India/100083239663402/"><FaFacebookF color="" /></a></div>
-                <div><a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/thebobawayindia"><FaTwitter /></a></div>
-                <div><a style={{ textDecoration: "none", color: "white" }} href="https://api.whatsapp.com/send/?phone=919518785637&text&type=phone_number&app_absent=0"><FaWhatsapp /></a></div>
-                <div> <a style={{ textDecoration: "none", color: "white" }} href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y="><FaInstagram /></a></div>
+                <div><a id="icon-hover"  href="https://m.facebook.com/people/The-Boba-Way-India/100083239663402/"><FaFacebookF color="" /></a></div>
+                <div><a id="icon-hover"  href="https://twitter.com/thebobawayindia"><FaTwitter /></a></div>
+                <div><a id="icon-hover"  href="https://api.whatsapp.com/send/?phone=919518785637&text&type=phone_number&app_absent=0"><FaWhatsapp /></a></div>
+                <div> <a id="icon-hover"  href="https://instagram.com/thebobawayindia?igshid=YmMyMTA2M2Y="><FaInstagram /></a></div>
             </div>
         </div>
         {/* right part of footer */}

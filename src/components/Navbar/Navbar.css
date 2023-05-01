@@ -1,4 +1,19 @@
 /* Styles for screens larger than 767px */
+
+
+#about{
+  text-decoration: none;
+}
+
+#for-hover{
+  color:white
+}
+#for-hover:hover{
+  
+color:black
+}
+
+
 .nav-text {
   font-size: 20px;
   text-align: center;

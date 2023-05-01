@@ -18,15 +18,15 @@ console.log(window.innerWidth)
           <img className="logo" src="logo-boba.png" alt="logo-icon" />
         </Link>
       </div>
-      <div className={`all-section ${isOpen ? "show-menu" : ""}`}>
-        <Link to="/about" style={{ textDecoration: "none" }}>
-          <div className="nav-text">About Us</div>
+      <div className={`all-section ${isOpen ? "show-menu" : ""}`} >
+        <Link to="/about" style={{textDecoration:"none"}}>
+          <div className="nav-text" id="for-hover">About Us</div>
         </Link>
         <div className="nav-text">Explore</div>
-        <div className="nav-text" > <a href="#contact" style={{ textDecoration: "none", color: "white" }}>Franchise</a></div>
+        <div className="nav-text" > <a href="#contact"  id="for-hover" style={{ textDecoration: "none"  }}>Franchise</a></div>
         <div className="nav-text">Menu</div>
         <div className="nav-contact nav-text">
-          <a href="#contact" style={{ textDecoration: "none", color: "white" }}>
+          <a href="#contact" id="for-hover" style={{ textDecoration: "none"  }}>
             Connect Us
           </a>
         </div>

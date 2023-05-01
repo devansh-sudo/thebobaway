@@ -11,8 +11,14 @@ background-image: url("../../../public/happy-background.png");
     background: linear-gradient(0.25turn, #fdb777, #FE611D);
     
 }
-.icon-hover :hover{
+
+#icon-hover {
+    text-decoration: none;
+    color: white;
+}
+#icon-hover :hover{
     color:black;
+
 }
 
 .footer-container {
@@ -134,7 +140,7 @@ background-image: url("../../../public/happy-background.png");
 }
 
 .company-link:hover {
-    color: blue
+    color: black
 }
 
 /* .company-link :hover{
@@ -152,7 +158,6 @@ background-image: url("../../../public/happy-background.png");
         padding-bottom: 2vh;
         color: white;
         gap: 20px;
-    
     }
 
 
