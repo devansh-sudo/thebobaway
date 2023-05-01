@@ -153,7 +153,7 @@ color:black
   }
 
   .nav-text {
-    font-size: 16px;
+    font-size: 2vw;
 
     text-align: center;
     padding-top: 6px;
@@ -177,9 +177,10 @@ color:black
   }
 
   .all-section {
-    width: 56vw;
+    width: 58vw;
     /* font-family: "Popins", sans-serif; */
-    font-size: 20px;
+    font-size: .5vw;
+    color:black;
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
