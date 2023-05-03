@@ -52,6 +52,11 @@ justify-content: center;
     width:100%;
     
 }
+.happy-heading{
+    text-align: center;
+    font-size: 3vw
+
+}
 .happy-customer-div-container{
     display: none;
 }

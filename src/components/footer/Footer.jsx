@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className="footer-container">
         {/* left part for footer */}
         <div className="footer-left-part">
-            <div className="footer-heading"><h1>The Boba Way India</h1></div> 
+            <div ><p className="footer-heading">The Boba Way India</p></div> 
             <div className="footer-boba-info"><p>The Boba Way was started by the College friends from diverse backgrounds, with a common love for Boba! Combining their diverse backgrounds and a love for flavourful Bubble Tea, our Co-founders have handpicked the best ingredients for a Boba-tastic experience.</p></div>        
             <div className="footer-social-media">
                 <div><a id="icon-hover"  href="https://m.facebook.com/people/The-Boba-Way-India/100083239663402/"><FaFacebookF color="" /></a></div>
@@ -40,11 +40,16 @@ export const Footer = () => {
                 <p>HOURS:</p>
                 <p>Monday To Sunday: 11AM - 11PM</p>
             </div>
-            <div className="footer-copyright">
+
+        </div>
+        </div>
+
+        <div className="copyright-privacy">
+        <div><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="">Reclamehub</a></p></div>
                 <div><p>Privacy Policy · Terms of service</p></div>
-            </div>
+            
+            
         </div>
-        </div>
-        <div className="copy-right-reclame"><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="">Reclamehub</a></p></div>
+
     </div>)
 }

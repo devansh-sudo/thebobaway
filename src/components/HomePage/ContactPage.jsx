@@ -113,7 +113,7 @@ export const ContactPage=()=>{
                 <input className="form_inputs"   id="" name="city" type="text" placeholder='City Name' value={userData.city}
                   onChange={postUserData} />
                 <div className='submitbtn_div'>
-                  <button onClick={submitData} type="submit"className="submit_btn">Submit</button>
+                  <button onClick={submitData} type="submit"className="submit_btn">SUBMIT</button>
                 </div>
                </div>
               </form>

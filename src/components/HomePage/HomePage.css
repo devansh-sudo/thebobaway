@@ -100,7 +100,8 @@ margin-bottom: -71px;
 @media screen and (max-width: 480px) {
   .home-part-1-text{
     font-size:12px;
-   line-height: 20px;
+   line-height: 15px;
     font-weight: 400;
+    padding-left: 5px;
     }
 }

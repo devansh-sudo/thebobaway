@@ -1,7 +1,7 @@
 .footer-container-main-div {
     background-color: #ff7e46;
     width: 100%;
-background-image: url("../../../public/happy-background.png");
+    background-image: url("../../../public/happy-background.png");
     /* background-color : rgb(253, 83, 22); */
     padding-left: 25px;
     padding-right: 25px;
@@ -9,15 +9,16 @@ background-image: url("../../../public/happy-background.png");
     color: white;
     gap: 20px;
     background: linear-gradient(0.25turn, #fdb777, #FE611D);
-    
+    font-family: poppins, sans-serif;
 }
 
 #icon-hover {
     text-decoration: none;
     color: white;
 }
-#icon-hover :hover{
-    color:black;
+
+#icon-hover :hover {
+    color: black;
 
 }
 
@@ -27,7 +28,7 @@ background-image: url("../../../public/happy-background.png");
     /* background-color: #ff7e46; */
 
     /* background-color : rgb(253, 83, 22); */
-  
+
     padding-top: 10px;
     color: white;
     gap: 20px;
@@ -44,8 +45,9 @@ background-image: url("../../../public/happy-background.png");
 
 .footer-heading {
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 40px;
     margin-bottom: 2vh;
+    /* border: 1px solid blue; */
 }
 
 .footer-boba-info {
@@ -55,16 +57,16 @@ background-image: url("../../../public/happy-background.png");
     left: 70px;
     /* top: 5254px; */
 
-    font-weight: 550;
-    font-size: 14px;
-    word-spacing: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    word-spacing: 5px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
 }
 
 .copy-right-reclame {
     width: 60%;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 
     font-style: normal;
     font-weight: 550;
@@ -90,24 +92,14 @@ background-image: url("../../../public/happy-background.png");
 
     font-style: normal;
     font-weight: 550;
-    font-size: 1vw;
+    font-size:13px;;
     line-height: 20px;
 
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
     margin-bottom: 10px;
     margin-top: 15px;
 }
 
-.footer-copyright {
-
-    text-align: end;
-    font-style: normal;
-    font-weight: 550;
-    font-size: 1vw;
-
-    color: rgba(255, 255, 255, 0.7);
-
-}
 
 .footer-category {
     display: flex;
@@ -116,14 +108,14 @@ background-image: url("../../../public/happy-background.png");
 }
 
 .resources {
-    font-size: 15px;
-    line-height: 2.2;
+    font-size: 14px;
+    line-height: 2;
 
 }
 
 .company {
-    font-size: 15px;
-    line-height: 2.2;
+    font-size: 14px;
+    line-height: 2;
 
 }
 
@@ -135,8 +127,8 @@ background-image: url("../../../public/happy-background.png");
 
 .company-link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-
+    /* color: rgba(255, 255, 255, 0.7); */
+color:white;
 }
 
 .company-link:hover {
@@ -146,13 +138,16 @@ background-image: url("../../../public/happy-background.png");
 /* .company-link :hover{
     color:orange
 } */
+.copyright-privacy {
+    display: flex;
+    justify-content: space-between;
+font-size: 14px;
+}
 
-
-@media all and (min-width:301px) and (max-width: 640px) {
+ @media all and (min-width:301px) and (max-width: 640px) {
     .footer-container-main-div {
         background-color: #ff7e46;
         width: 100%;
-        /* background-color : rgb(253, 83, 22); */
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 2vh;
@@ -171,7 +166,7 @@ background-image: url("../../../public/happy-background.png");
         display: flex;
         flex-wrap: wrap;
 
-        /* background-color : rgb(253, 83, 22); */
+
         padding-top: 3vh;
         color: white;
         gap: 10px;
@@ -187,7 +182,7 @@ background-image: url("../../../public/happy-background.png");
         width: 70vw;
 
 
-        /* top: 5254px; */
+
         line-height: 1.5em;
         font-weight: 580;
         font-size: 3vw;
@@ -210,17 +205,9 @@ background-image: url("../../../public/happy-background.png");
     .footer-right-part {
         width: 100%;
 
-margin-top: -1px;    
-}
-
-    .copy-right-reclame {
-        width: 100%;
-        margin-top: 2vh;
-        font-weight: 550;
-        font-size: 2.5vw;
-        color: rgba(255, 255, 255, 0.7);
-
+        margin-top: -1px;
     }
+
 
     .category-footer-heading {
         font-weight: bold;
@@ -269,10 +256,11 @@ margin-top: -1px;
 }
 
 
-@media all and (min-width:100px) and (max-width: 300px) {
+@media all and (min-width:100px) and (max-width: 480px) {
     .footer-heading {
+        text-align: center;
         font-weight: 600;
-        font-size: 3.5vw;
+        font-size: 5.5vw;
         padding-bottom: 1vh;
 
     }
@@ -281,8 +269,6 @@ margin-top: -1px;
     .footer-container {
         display: flex;
         flex-wrap: wrap;
-
-        /* background-color : rgb(253, 83, 22); */
         padding: .5vh;
         color: white;
         gap: 5px;
@@ -297,17 +283,18 @@ margin-top: -1px;
 
 
     .footer-boba-info {
-
+text-align: center;
         width: 90%;
 
         left: 70px;
-        /* top: 5254px; */
+
 
         font-weight: 550;
         font-size: 3.5vw;
         word-spacing: 3px;
         line-height: 1.5em;
-        color: rgba(255, 255, 255, 0.7);
+        /* color: rgba(255, 255, 255, 0.7); */
+        color: white;
     }
 
     .footer-social-media {
@@ -315,21 +302,20 @@ margin-top: -1px;
         margin-bottom: 2vh;
         display: flex;
         justify-content: space-between;
-
         color: white;
         width: 80%;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .footer-right-part {
         margin-top: 5px;
         width: 90%;
     }
-
+/* 
     .copy-right-reclame {
         width: 100%;
         margin-top: 25px;
-        
+
         font-style: normal;
         font-weight: 550;
         font-size: 2vw;
@@ -337,7 +323,7 @@ margin-top: -1px;
 
         color: rgba(255, 255, 255, 0.7);
 
-    }
+    } */
 
 
     .resources {
@@ -365,39 +351,48 @@ margin-top: -1px;
         font-weight: 550;
         font-size: 3.5vw;
         line-height: 20px;
-
-        color: rgba(255, 255, 255, 0.7);
+color: white;
+        /* color: rgba(255, 255, 255, 0.7); */
         margin-bottom: 10px;
         margin-top: 5px;
     }
 
-    
+
     .footer-copyright {
 
         text-align: end;
         font-style: normal;
         font-weight: 550;
-        font-size: 3.5vw;
+        font-size: 1.5vw;
 
-        color: rgba(255, 255, 255, 0.7);
+        /* color: rgba(255, 255, 255, 0.7); */
 
     }
-}
 
+    .copyright-privacy {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+    font-size: 10px;
+    }
+} 
 
+ 
 @media all and (min-width:641px) and (max-width:1240px) {
     .footer-heading {
         font-weight: 650;
-        font-size: 2.4vw;
+        font-size: 3.7vw;
         width: 50vw;
 
     }
-
+    .copyright-privacy {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+    font-size: 12px;
+    }
     .footer-container {
         display: flex;
-
-
-        /* background-color : rgb(253, 83, 22); */
         padding: 3vh;
         color: white;
         gap: 20px;
@@ -410,17 +405,12 @@ margin-top: -1px;
     }
 
     .footer-boba-info {
-
         width: 40vw;
-
-
-        /* top: 5254px; */
-
         font-weight: 550;
-        font-size: 2vw;
+        font-size: 1.5vw;
 
         line-height: 1.5em;
-        color: rgba(255, 255, 255, 0.7);
+        /* color: rgba(255, 255, 255, 0.7); */
     }
 
     .footer-right-part {
@@ -440,6 +430,7 @@ margin-top: -1px;
 
     .category-footer-heading {
         font-weight: bold;
+        margin-top: 10px;
         margin-bottom: 8px;
         font-weight: 580;
     }
@@ -451,14 +442,14 @@ margin-top: -1px;
     }
 
     .resources {
-        font-size: 2vw;
-        line-height: 2;
+        font-size: 1.8vw;
+        line-height: 1.8;
 
     }
 
     .company {
-        font-size: 2vw;
-        line-height: 2;
+        font-size: 1.8vw;
+        line-height: 1.8;
 
     }
 
@@ -467,10 +458,10 @@ margin-top: -1px;
 
         font-style: normal;
         font-weight: 550;
-        font-size: 2vw;
+        font-size: 1.8vw;
         line-height: 1.5em;
-
-        color: rgba(255, 255, 255, 0.7);
+color:white;
+        /* color: rgba(255, 255, 255, 0.7); */
         margin-bottom: 2vh;
         margin-top: 1vh;
     }
@@ -494,17 +485,26 @@ margin-top: -1px;
         width: 30%;
         font-size: 25px;
     }
-}
+    .footer-copyright {
 
+        text-align: end;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 3.5vw;
 
+        color: rgba(255, 255, 255, 0.7);
+
+    }
+} 
+
+ 
 
 @media all and (min-width:1435px) and (max-width:3000px) {
 
     .footer-container-main-div {
         background-color: #ff7e46;
         width: 100%;
-        /* background-color : rgb(253, 83, 22); */
-        border: 1px sold blue;
+     
 
         padding-left: 25px;
         padding-right: 1.5vh;
@@ -515,33 +515,16 @@ margin-top: -1px;
     }
 
 
-    .footer-container {
-        /* display: flex; */
-        /* background-image: url("../../../public/footermain.png"); */
-        /* background-color: #ff7e46; */
-
-        /* background-color : rgb(253, 83, 22); */
-        /* padding-left: 25px; */
-        /* padding-right: 25px; */
-        /* padding-top: 10px; */
-        /* color:white; */
-        /* gap:20px;  */
-    }
-
 
     .footer-heading {
         font-weight: 650;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         width: 50vw;
 
     }
 
     .footer-container {
         display: flex;
-
-
-        /* background-color : rgb(253, 83, 22); */
-
         color: white;
         gap: 20px;
 
@@ -554,15 +537,11 @@ margin-top: -1px;
 
     .footer-boba-info {
 
-        width: 30vw;
-
-
-        /* top: 5254px; */
-
+        width: 25vw;
         font-weight: 550;
-        font-size: 1vw;
+        font-size: .8vw;
         line-height: 1.5em;
-        color: rgba(255, 255, 255, 0.7);
+        /* color: rgba(255, 255, 255, 0.7); */
     }
 
     .footer-right-part {
@@ -577,7 +556,8 @@ margin-top: -1px;
         font-weight: 550;
         font-size: 1vw;
         line-height: 1.5em;
-        color: rgba(255, 255, 255, 0.7);
+
+        /* color: rgba(255, 255, 255, 0.7); */
     
     }
 
@@ -613,7 +593,7 @@ margin-top: -1px;
         font-size: 1vw;
         line-height: 1.5em;
 
-        color: rgba(255, 255, 255, 0.7);
+        /* color: rgba(255, 255, 255, 0.7); */
         margin-bottom: 2vh;
         margin-top: 1vh;
     }
@@ -636,4 +616,15 @@ margin-top: -1px;
         width: 30%;
         font-size: 2vw;
     }
+    .footer-copyright {
+
+        text-align: end;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 3.5vw;
+
+        color: rgba(255, 255, 255, 0.7);
+
+    }
 }
+ 
