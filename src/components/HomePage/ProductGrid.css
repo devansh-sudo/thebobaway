@@ -10,7 +10,6 @@ justify-content: center;
     grid-template-columns: repeat(4, 18vw);
     grid-template-rows: repeat(3, 22vh);
     gap: 10px;
- 
    max-width: 90%;
    margin: auto;
    grid-template-areas:

@@ -1,5 +1,6 @@
 import "./ContactPage.css"
 import React ,{useState} from "react";
+import {Container,Row,Col} from "react-bootstrap"
 import swal from 'sweetalert'; 
 export const ContactPage=()=>{
 
@@ -71,69 +72,54 @@ export const ContactPage=()=>{
       };
 
     return (
-        <div className="contact-container container-fluid " id="contact" style={{backgroundColor:'#fdb777'}} >
-            <div className="contact-container-part-a">
-                <h2>Request A Free Franchise Consultation</h2>
-                <div>
-                <button className="reqst-btn" style={{fontSize:"20px",textAlign:'center'}}>Read more</button>
+        <div className="contact-container container-fluid " id="contact" >
+            <Container className="contact-container-part-a g-0">
+            {/* <Row className="row flex-column-reverse flex-md-row"> */}
+            <Row>
+                <Col className="left_col">
+                <div className="heading_div">
+                <p className="reqst_heading">Request A Free Franchise Consultation</p>
+                <button className="readmore_btn" >Read more</button>
                 </div>
-                <br />
-                <br />
-<br />
-                <div className="img44-div">
-                <img className="img44" src="bobaformimg.png" />
-                </div>
-             
-            </div>
-            <div className="contact-container-part-b">
-                <h2 style={{textAlign:"center",fontSize:"26px"}}>Get A Franchise</h2>
-                <br />
-                <br />
-                <form method="POST">
-              <div className='contact_form'>
 
-                <label className='formText-h3'>Name</label >
-                <input type="text" className="form-inputs" placeholder='Name'  id="" 
+                <div className="img44_div">
+                <img className="img44 img-fluid" src="bobaformimg.png" />
+                </div>
+                </Col>
+            
+               
+             
+            
+            {/* contact-form */}
+            <Col className="right_col">  
+            <form method="POST">
+              <div className='contact_form'>
+              <h2 className="form_heading">Get A Franchise</h2>
+                <label className='form_lables'>Name</label >
+                <input type="text" className="form_inputs" placeholder='Name'  id="" 
                 name="name"  
                 value={userData.name}
                 onChange={postUserData} 
                 />
-                <label className='formText-h3' >Email</label >
-                <input className="form-inputs"   id="" name="email" type="email" placeholder='Email' value={userData.email}
+                <label className='form_lables' >Email</label >
+                <input className="form_inputs"   id="" name="email" type="email" placeholder='Email' value={userData.email}
                   onChange={postUserData} />
 
-                <label className='formText-h3' >Phone number</label >
-                <input className="form-inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No' value={userData.phoneNo}
+                <label className='form_lables' >Phone number</label >
+                <input className="form_inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No' value={userData.phoneNo}
                   onChange={postUserData} />
 
-                <label className='formText-h3' >City</label >
-                <input className="form-inputs"   id="" name="city" type="text" placeholder='City Name' value={userData.city}
+                <label className='form_lables' >City</label >
+                <input className="form_inputs"   id="" name="city" type="text" placeholder='City Name' value={userData.city}
                   onChange={postUserData} />
                 <div className='submitbtn_div'>
                   <button onClick={submitData} type="submit"className="submit_btn">Submit</button>
                 </div>
-              </div>
+               </div>
               </form>
-                {/* <form >
-                    <h3 className="formText">Name</h3>
-                    <input className="form-inputs"/>
-                    <br />
-                    <br />
-                    <h3 className="formText">Email</h3>
-                    <input />
-                    <br />
-                    <br />
-                    <h3 className="formText">Phone No.</h3>
-                    <input />
-                    <br />
-                    <br />
-                    <h3 className="formText">City</h3>
-                    <input />
-                    <br />
-                    <br />
-                    <button className="form-submit" type="submit">SUBMIT</button>
-                </form> */}
-            </div>
+             </Col>
+              </Row>
+              </Container>
         </div>
     )
 }
