@@ -11,6 +11,7 @@ import { BobaMap } from "./BobaMap";
 import { ProductGrid } from "./ProductGrid";
 import { Gallery } from "./Gallery";
 import TestiMonials from "../locationSlider/TestiMonials"
+import { HappyCustomerPage } from "./HappCustomerSlide"
 
 
 export const HomePage = () => {
@@ -72,6 +73,8 @@ export const HomePage = () => {
 
             <ProductGrid />
             {/* <Gallery /> */}
+
+            
             <InstagramPage />
             <div className="boba-location" style={{ backgroundImage: `url("mapbg.png")` }}><BobaMap /></div>
 </>

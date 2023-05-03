@@ -45,6 +45,6 @@ export const Footer = () => {
             </div>
         </div>
         </div>
-        <div className="copy-right-reclame"><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="https://reclamehub.com/index.html"  >Reclamehub</a></p></div>
+        <div className="copy-right-reclame"><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="">Reclamehub</a></p></div>
     </div>)
 }
