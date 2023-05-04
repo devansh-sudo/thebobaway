@@ -30,6 +30,7 @@ line-height: 35px;
 }
 .text-bobaway{
   font-weight: bold;
+  font-size: 3.5rem;
 }
 .home-part-1-img {
  max-height: 45vh;
@@ -104,4 +105,17 @@ margin-bottom: -71px;
     font-weight: 400;
     padding-left: 5px;
     }
+
+
+    .text-bobaway{
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .outlet-div-text{
+      font-size: 5vw;
+      font-weight: 550;
+      /* padding-top: 40px; */
+      margin-bottom: -50px;
+      }
 }

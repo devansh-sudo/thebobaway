@@ -52,7 +52,7 @@ const TestiMonials = () => {
         margin: 0,
         autoplay: true,
         dots: true,
-        autoplayTimeout: 8500,
+        autoplayTimeout: 3500,
         smartSpeed: 450,
         nav: false,
         responsive: {

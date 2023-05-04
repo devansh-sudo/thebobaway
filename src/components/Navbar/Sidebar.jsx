@@ -17,11 +17,11 @@ const Sidebar = () => {
   };
 
   return (
-    <div>
+    <div style={{color:"white"}}>
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
       <GiHamburgerMenu color="white"  size={25} />
       </Button>
-      <Drawer title="Welcome" width="180px" style={{height:"300px",backgroundColor:"#fe611d"}}  placement="right"  onClose={onClose} open={open}>
+      <Drawer title="Welcome" color="white" width="180px" style={{height:"100vh",backgroundColor:"#fe611d",color:"white"}}  placement="right"  onClose={onClose} open={open}>
         <div className="nav-slide-option"><p>About Us</p></div>
         <div className="nav-slide-option"><p>Franchise</p></div>
         <div className="nav-slide-option">

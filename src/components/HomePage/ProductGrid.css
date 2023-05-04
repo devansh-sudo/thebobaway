@@ -9,9 +9,10 @@
 justify-content: center;    
     grid-template-columns: repeat(4, 18vw);
     grid-template-rows: repeat(3, 22vh);
-    gap: 15px;
+    gap: 10px;
    max-width: 90%;
    margin: auto;
+   padding-bottom: 30px;
    grid-template-areas:
         " a a b b"
         "a a d e"
@@ -97,7 +98,8 @@ justify-content: center;
         display: none;
     }
     .happy-customer-div-container{
-        display:inline
+        display:inline;
+        padding-top: 5px;
     }
 
     .happy-heading{

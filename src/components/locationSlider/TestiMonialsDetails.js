@@ -12,7 +12,7 @@ const TestiMonialsDetails = ({testiMonialDetail}) => {
                 {/* <p>{description}</p> */}
                 <a href={description} style={{textDecoration:"none"}}>    
             <div className="testimonial-name">
-            <BsFillPinMapFill  size="20" />
+            <BsFillPinMapFill  size="20" style={{margin:"5px"}} />
                 <h5>{name}</h5>
                 <small>{address}</small>
             </div>

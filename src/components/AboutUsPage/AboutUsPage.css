@@ -1,24 +1,50 @@
+/* .img44_div {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    }
+     .img44{
+      position: absolute;
+      left: -5px;
+      margin-top: -35px;
+      max-width: 100%;
+   @media screen and (max-width: 480px) {
+  .img44{
+      position: relative;
+      left: -10px;
+     top:462px;
+     height: auto;
+     width: 25%;   
+    }    
+   
+   
+    }  */
+  
+
+
+
 .about-part-1-container{
 width: 100%;
 display: flex;
 justify-content: space-between;
-gap:4vw;
+gap:2vw;
 
 }
 
 .about-boy-img{
 
-    
-    width: 40vw;
-   margin-right: 1vw;
+/* border:1px solid red;     */
+    max-width: 50%;
+   
 }
 .about-boy-img img{
-max-width: 50vw;
+max-width: 100%;
+object-fit: contain;
+height: 100%;
 }
 .aboutheadingimg-div{
 border-bottom: 1px solid black;
 max-width: 22vw;
-
 }
 .aboutheadingimg-div img {
     max-width: 22vw;
@@ -27,9 +53,9 @@ max-width: 22vw;
 margin: 1px;
     /* border:1px solid red; */
     margin-top: 3vh;
-    width: 45vw;
+    width: 50%;
     font-weight: bold;
-    padding-right: 1vh;
+    padding-right: 10px;
 }
 
 .about-top-info{
@@ -45,267 +71,102 @@ margin: 1px;
     gap:10%;
 }
 
-.about-user-info h1{
+.about-user-info{
     color:#fe611d;
     
 }
 .about-user-number{
-    font-size: 5vw;
+    font-size: 4vw;
      color:#fe611d;
 }
 .about-user-number-text{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
+    color:black
 
 }
 .chock-2-boba-img{
-    
-    height: 8vh;
-    
+    /* margin-top: 10px; */
+    max-height: 160px;
+    /* border:1px solid red; */
     align-items: end;
-    padding-left:23vw;
-    margin-top: -2.5vh;
+    display: flex;
+    justify-content: end;
+    flex-flow: row-reverse;
+    max-width: 100%;
+    position: relative;
+        /* margin-bottom: -8.5vh; */
 }
 
 .chock-2-boba-img img{
-    min-height: 4vh;
-    max-width: 26vw;
-padding-left: 7vw;    
+   margin-bottom: -65px;
+   object-fit: contain;
+    /* border:1px solid green; */
+/* max-height:150% ; */
+max-width: 35%;
+/* margin-bottom: -8rem; */
 }
 
-.about-features-heading-button{
-    display: flex;
-    justify-content: space-between;
-}
 
-.about-part-2-heading{
-    font-size: 1.6vw;
-    width: 65%;
+@media screen and (min-width: 1440px){
+
     
-}
-
-.about-btn{
-font-size: 2vw;
-
-    padding: 2vw;
-    max-width: 30vw;
-}
-.about-features-section{
-    display:flex;
-justify-content: space-around;
-    margin-top: 5vh;
-}
-.about-features-section-single-div{
-width: 20%;
-    
-}
-
-.about-icon-heading{
-    font-weight: 600;
-    font-size: 1.5vw;
-}
-.about-icon-div{
-
- 
-    margin-top: 1.8vh;
-    width: 20%;
-    size:5vw
-    /* margin: auto; */
-}
-
-.about-part-2-button{
-    /*  */
-  
-    width: 20vw;
-    margin-top: 7vh;
-    
-
-}
-
-.about-us-container-part-2{
-
-padding: 10px;
-padding-top: 40px;
-}
-.about-part-2-button button{
-    border:1px solid black;
-    /* padding: 3vw;
-padding: 3vw;
-height: 20px;
-border-radius: 30px;
-    font-weight: bold;
-    font-size: 2.5vw; */
-    /* margin-top: 20px; */
-    width: 15vw;
-    font-weight: 600;
-    font-size: 2vw;
-    border-radius: 10vw;
-    background-color: rgb(230, 224, 224);
-}
-.about-button-text{
-    color :red;
-font-size: 3vw;
-
-font-weight: bold;
-}
-.about-icon-text{
-    font-size: 1.1vw;
-}
-
-@media all and (min-width:1400px) and (max-width:2500px){
-
- 
-    .about-part-1-container{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        gap:3vw;
-        
-        }
-        
-        .about-boy-img{
-        
-            
-            width: 35vw;
-           margin-right: .5vw;
-        }
-        .about-boy-img img{
-        max-width: 30vw;
+    .about-boy-img img{
+        max-width: 100%;
         }
         .aboutheadingimg-div{
         border-bottom: 1px solid black;
-        max-width: 20vw;
-        
+        max-width: 13vw;
         }
         .aboutheadingimg-div img {
-            max-width: 20vw;
-        }
-        .about-intro-div{
-        margin: 1px;
-            /* border:1px solid red; */
-            margin-top: 3vh;
-            width: 32vw;
-            font-weight: bold;
-            padding-right: 1vh;
-        }
-        
-        .about-top-info{
-            margin-top: 4vh;
-            border-bottom: 1px solid black;
-            padding-bottom: 4vh;
-            font-size: 1.2vw;
-        }
-        
-        .about-user-info{
-            margin-top: 2vh;
-            display: flex;
-            gap:10%;
-        }
-        
-        .about-user-info h1{
-            color:#fe611d;
-            
-        }
-        .about-user-number{
-            font-size: 4vw;
-             color:#fe611d;
-        }
-        .about-user-number-text{
-            font-size: 1.1vw;
-        
-        }
-        .chock-2-boba-img{
-            
-            height: 8vh;
-            
-            align-items: end;
-            padding-left:23vw;
-            margin-top: -2.5vh;
-        }
-        
-        .chock-2-boba-img img{
-            min-height: 4vh;
-            max-width: 26vw;
-        padding-left: 7vw;    
-        }
-        
-        .about-features-heading-button{
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .about-part-2-heading{
-            font-size: 1.6vw;
-            width: 65%;
-            
-        }
-        
-        .about-btn{
-        font-size: 2vw;
-        
-            padding: 2vw;
-            max-width: 30vw;
-        }
-        .about-features-section{
-            display:flex;
-        justify-content: space-around;
-            margin-top: 5vh;
-        }
-        .about-features-section-single-div{
-        width: 20%;
-            
-        }
-        
-        .about-icon-heading{
-            font-weight: 600;
-            font-size: 1.5vw;
-        }
-        .about-icon-div{
-        
-         
-            margin-top: 1.8vh;
-            width: 20%;
-            size:5vw
-            /* margin: auto; */
-        }
-        
-        .about-part-2-button{
-            /*  */
-          
-            width: 20vw;
-            margin-top: 7vh;
-            
-        
-        }
-        
-        .about-us-container-part-2{
-        
-        padding: 10px;
-        padding-top: 40px;
-        }
-        .about-part-2-button button{
-            border:1px solid black;
-            /* padding: 3vw;
-        padding: 3vw;
-        height: 20px;
-        border-radius: 30px;
-            font-weight: bold;
-            font-size: 2.5vw; */
-            /* margin-top: 20px; */
-            width: 15vw;
-            font-weight: 600;
-            font-size: 2vw;
-            border-radius: 10vw;
-            background-color: rgb(230, 224, 224);
-        }
-        .about-button-text{
-            color :red;
-        font-size: 3vw;
-        
-        font-weight: bold;
-        }
-        .about-icon-text{
-            font-size: 1.1vw;
+            max-width: 12vw;
         }
         
 
+    .about-intro-div{
+        margin: 1px;
+            margin-top: 3vh;
+            width: 25vw;
+            font-weight: bold;
+            /* padding-right: 1vh; */
+        }
+ 
+    .about-top-info{
+        margin-top: 4vh;
+        border-bottom: 1px solid black;
+        padding-bottom: 4vh;
+        font-size: .8vw;
+        
+    }
+
+    .about-user-number{
+        font-size: 2.2vw;
+         color:#fe611d;
+    }
+    .about-user-number-text{
+        font-size: .8vw;
+    
+    }
+
+    .chock-2-boba-img{
+        /* margin-top: 10px; */
+        height: 10rem;
+        
+        align-items: end;
+        display: flex;
+        flex-flow: row-reverse;
+            margin-bottom: -18.5vh;
+    }
+
+    .chock-2-boba-img img{
+        margin-bottom: -5vh;
+        
+         
+     height:120% ;
+     
+     width: 45vw;
+     margin-bottom: -6rem;
+     }
 }
+
+
+
