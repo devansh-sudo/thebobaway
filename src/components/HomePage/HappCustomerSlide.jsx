@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
-import "./InstagramPage.css";
+import "./HappyCustomerSlide.css";
 // // import { div, Button, Flex, Image, Link, Text } from "@chakra-ui/react";
 
 const homeData = [
@@ -80,14 +80,14 @@ const breakPoints =
 export const HappyCustomerPage = () => {
 
   return (
-    <div className="insta-div" >
+    <div className="happy-div" >
       
       <div  >
         <Carousel infiniteLoop={"true"} autoPlaySpeed={4000} breakPoints={breakPoints}>
           {homeData?.map((el) => (
             <Link >
               <div key={el.id} >
-                <div className="insta-img-div" >
+                <div className="happy-img-div" >
                   <img src={el.img} alt="carousel-img" height={'100%'} width={'100%'}  />
                 </div>
               </div>

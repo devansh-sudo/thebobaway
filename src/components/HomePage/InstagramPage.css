@@ -18,7 +18,8 @@
 width: 420px;
 }
 .insta-img-div img
-{padding: 10px 
+{padding: 10px;
+  /* object-fit: scale-down; */
 }
 
 .insta-heading {
@@ -89,12 +90,14 @@ width: 420px;
     .insta-img-div{
       height:35vh;
     width: 60vw;
-    }
+ 
+  }
     .insta-img-div img
     {padding: 1vw; 
       height:35vh;
     width: 60vw;
-    }
+    /* object-fit: contain; */
+  }
     
     .insta-heading {
       text-align: center;
@@ -148,9 +151,10 @@ width: 420px;
   }
   .insta-img-div img
   {padding: 1vw; 
-    height:35vh;
+    height:30vh;
   width: 60vw;
-  }
+
+}
   
   .insta-heading {
     text-align: center;
