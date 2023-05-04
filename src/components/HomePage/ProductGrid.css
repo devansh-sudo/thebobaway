@@ -54,8 +54,8 @@ justify-content: center;
 }
 .happy-heading{
     text-align: center;
-    font-size: 3vw
-
+    font-size: 3vw;
+    margin:15px 0px 15px 5px;
 }
 .happy-customer-div-container{
     display: none;
@@ -98,6 +98,12 @@ justify-content: center;
     }
     .happy-customer-div-container{
         display:inline
+    }
+
+    .happy-heading{
+        text-align: center;
+        font-size: 5vw;
+        margin:15px 0px 15px 5px;
     }
 }
 @media all and (min-width:21481px)  and (max-width: 100700px) {
