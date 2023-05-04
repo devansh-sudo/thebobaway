@@ -21,7 +21,7 @@ const Sidebar = () => {
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
       <GiHamburgerMenu color="white"  size={25} />
       </Button>
-      <Drawer title="Welcome" width="180px" style={{height:"260px",backgroundColor:"#fe611d"}}  placement="right"  onClose={onClose} open={open}>
+      <Drawer title="Welcome" width="180px" style={{height:"300px",backgroundColor:"#fe611d"}}  placement="right"  onClose={onClose} open={open}>
         <div className="nav-slide-option"><p>About Us</p></div>
         <div className="nav-slide-option"><p>Franchise</p></div>
         <div className="nav-slide-option">

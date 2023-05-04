@@ -4,7 +4,8 @@
 
 .nav-drwa-container {
 
-    background-color: #fe611d
+    background-color: #fe611d;
+    border:1px solid red;
 }
 
 .nav-slide-explore {
@@ -15,7 +16,7 @@
 }
 
 .nav-slide-option {
-    border: 1px solid black;
+    border: 1px solid white;
     font-weight: 550;
     font-size: 14px;
     border-radius: 5px;
@@ -24,7 +25,7 @@
 }
 
 .nav-selector-option {
-    border: 1px solid black;
+    border: 1px solid white;
     font-weight: 550;
     font-size: 14px;
     width: 100%;
