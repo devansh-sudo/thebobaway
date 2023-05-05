@@ -3,7 +3,8 @@ import Image from 'react-bootstrap/Image'
 import "./AboutUsPage.css"
 import { AboutFeatures } from "./AboutFeatures"
 import { FounderMsg } from './FounderMsg'
-import AboutFeaturesSlide from './AboutFeaturesSlider'
+
+import AboutFeaturesSlider from './AboutFeaturesSlider'
 
 export const AboutUs = () => {
 
@@ -33,7 +34,7 @@ export const AboutUs = () => {
         </div>
         
         <AboutFeatures />
-<AboutFeaturesSlide ></AboutFeaturesSlide>
+<AboutFeaturesSlider />
         <FounderMsg />
     </div>)
 }
