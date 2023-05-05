@@ -12,7 +12,7 @@ import { AllRoutes } from './components/AllRoutes/AllRoutes';
 import { Footer } from './components/footer/Footer';
 import Swipe from './components/HomePage/Outlets';
 import Outlets from './components/HomePage/Outlets';
-
+import AboutFeaturesSlider from './components/AboutUsPage/AboutFeaturesSlider';
 
 export default function App() {
 
@@ -20,7 +20,8 @@ export default function App() {
     <div className='mainDiv'>
 
    <Navbar /> 
- <AllRoutes />   
+ {/* <AllRoutes />    */}
+ <AboutFeaturesSlider />
 <Footer />   
 {/* <Outlets /> */}
       

@@ -6,7 +6,8 @@ export const AboutFeatures=()=>{
 return (<div>
 <div className="about-us-container-part-2"  >
             <div className="about-features-heading-button">
-                <div ><h1 className="about-part-2-heading">Special Features that will make you Happy & Cheer Up! </h1></div>
+                <div >
+                    <h1 className="about-part-2-heading">Special Features that will make you Happy & Cheer Up! </h1></div>
                 <div className="about-part-2-button"><button className="about-btn" >See More</button></div>
             </div>
 

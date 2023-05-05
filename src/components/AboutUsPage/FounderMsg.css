@@ -1,4 +1,446 @@
 .founder-div-container{
+background-image: url("../../../public/founderbg.png");
+padding:25px 5px 15px 20px;    
+}
+.founder-first-row{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.founder-first-row-first-col{
+display: flex;
+/* border:1px solid firebrick; */
+width: 50%;
+padding-right: 2%;
+}
 
+.founder-first-col-img{
+    /* background-image: url("../../../public/founderimg.png");
+     */
+    width: 29vw;
+    /* border:1px solid blue; */
+    height: auto;
     
+    margin: auto;
+    /* width: 20px; */
+    border-radius: 50%;
+    display: inline-block;
+}
+.founder-avatar{
+/* border:1px solid black; */
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.founder-first-col-name-img{
+    width: 20vw;
+    /* border:1px solid #fe611d; */
+    height: 11vh;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    /* width: 20px; */
+    background-color:#fe611d;
+    border-radius:5px 50px 50px 5px;
+   align-items: center;
+   margin-left: -11px;
+}
+
+.founderOne-name{
+    min-width: 75%;
+   max-height: fit-content;
+    /* border:1px solid blue; */
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.founder-cup{
+    max-height: 120%;
+    /* border:1px solid pink; */
+    max-width: 140%;
+    margin-top: -80px;
+}
+.founder-first-row-second-col{
+    /* border:1px solid green; */
+    align-items: center;
+margin-left: 5px;
+width: 50%;
+background-color: rgb(252, 247, 247);
+padding: 10px;
+}
+
+.founder-heading{
+font-size: 3vw;
+font-weight: 600;
+text-align: center;
+}
+
+.founder-msg{
+font-size: 1.5vw;
+font-weight: 500;
+font-family: poppins,sans-serif;
+color:gray
+
+}
+
+.founder-second-row{
+    width: 100%;
+display: flex;
+    /* border:1px solid red; */
+    justify-content: space-between;
+align-items: end;
+}
+
+
+.abt-founder-two-img-text{
+    /* border:1px solid blue; */
+    display: flex;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    justify-content: end;
+width: 50%;
+}
+
+
+.founderavatar-two{
+    /* border: 1px solid yellow; */
+    width: 35vw;
+    /* border:1px solid blue; */
+    height: auto;
+    
+    margin: auto;
+    /* width: 20px; */
+    border-radius: 50%;
+    display: inline-block;
+    }
+
+    .founderavatar-two-img{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    .founder-two-name-cup-container{
+        max-width: 25vw;
+        /* border:1px solid #fe611d; */
+        height: 12vh;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        /* width: 20px; */
+        background-color:#fe611d;
+        border-radius:45px 1px 1px 45px;
+       align-items: center;
+       margin-right: -12px;
+    }
+    .founder-two-text{
+        color:white;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    .founder-cup-two{
+        /* border: 1px solid gray; */
+        margin: 0px 10px 80px 1px;
+        max-height: 120%;
+        max-width: 120%;
+       
+    }
+
+
+.abt-two-glass{
+    /* border: 1px solid tomato; */
+height: 70%;
+width: 12%;
+}
+
+.abt-two-glass-img{
+/* border:1px solid black; */
+    height: 70%;
+width: 12vw;
+object-fit: contain;
+margin-bottom: -40px;
+}
+
+
+
+
+.chock-flow-img-div{
+height: auto;
+max-width: 40%;
+/* border:1px solid green; */
+}
+
+.chock-flow-img{
+    max-height: fit-content;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:480px) {
+    .founder-first-row{
+        /* border:1px solid red; */
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }   
+    .founder-first-row-second-col{
+        /* border:1px solid green; */
+        align-items: center;
+        width: 100%;
+        background-color: rgb(252, 247, 247);
+        padding: 10px;
+    }
+
+
+    .founder-heading{
+        font-size: 4.5vw;
+        font-weight: 600;
+        text-align: center;
+        }
+        
+        .founder-msg{
+        font-size: 2.5vw;
+        font-weight: 500;
+        font-family: poppins,sans-serif;
+        color:gray
+        
+        }
+
+        .founder-first-row-first-col{
+            display: flex;
+            /* border:1px solid firebrick; */
+            width: 80%;
+            padding-right: 2%;
+            }
+            
+            .founder-first-col-img{
+                /* background-image: url("../../../public/founderimg.png");
+                 */
+                width: 29vw;
+                /* border:1px solid blue; */
+                height: auto;
+                
+                margin: auto;
+                /* width: 20px; */
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .founder-avatar{
+            /* border:1px solid black; */
+                object-fit: contain;
+                height: 100%;
+                width: 105%;
+                z-index: .5;
+               
+            }
+            
+            .founder-first-col-name-img{
+
+               
+               
+                width: 40vw;
+                /* border:1px solid #fe611d; */
+                max-height: 9vh;
+                display: flex;
+                margin: auto;
+                text-align: center;
+                justify-content: center;
+                /* width: 20px; */
+                background-color:#fe611d;
+                border-radius:20px 50px 50px 20px;
+                align-items: center;
+                margin-left: -1px;
+                padding-right: 10px;
+                z-index: 1;
+            }
+            
+            .founderOne-name{
+                min-width: 75%;
+                max-height: fit-content;
+                /* border:1px solid blue; */
+                text-align: center;
+                color: aliceblue;
+                font-size: 1rem;
+                font-weight: 600;
+                
+            }
+            
+            .founder-cup{
+                max-height: 120%;
+                /* border:1px solid pink; */
+                max-width: 140%;
+                margin-top: -40px;
+            }
+
+
+
+            .founder-second-row{
+                width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+                /* border:1px solid red; */
+                justify-content: space-between;
+            align-items: end;
+            }
+            
+            
+            .abt-founder-two-img-text{
+                /* border:1px solid blue; */
+                display: flex;
+                height: auto;
+                display: flex;
+                align-self: flex-start;
+                justify-content: end;
+            width: 80%;
+            }
+            
+            
+            .founderavatar-two{
+                /* border: 1px solid yellow; */
+                width: 35vw;
+                /* border:1px solid blue; */
+                height: auto;
+                margin: auto;
+                /* width: 20px; */
+                border-radius: 50%;
+                display: inline-block;
+                }
+            
+                .founderavatar-two-img{
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                }
+                .founder-two-name-cup-container{
+                    
+                    max-width: 45vw;
+                    /* border:1px solid #fe611d; */
+                    height: 10vh;
+                    display: flex;
+                    margin: auto;
+                    text-align: center;
+                    justify-content: center;
+                    /* width: 20px; */
+                    background-color:#fe611d;
+                    border-radius:45px 10px 10px 45px;
+                   align-items: center;
+                   margin-right: -12px;
+                }
+                .founder-two-text{
+                    color:white;
+                    font-weight: 600;
+                    padding-top: 5px;
+                    object-fit: contain;
+                    font-size: 1.2rem;
+                /* border:1px solid green; */
+                width: 30vw;
+                }
+                .founder-cup-two{
+                    /* border: 1px solid gray; */
+                    margin: 0px 10px 40px 0px;
+                    max-height: 100%;
+                    max-width: 100%;  
+                }
+            
+
+                .chock-flow-img{
+                    display: none;
+                    max-width: 100%;
+                }
+
+                
+.abt-two-glass-img{
+  display:none;
+    }
+    
+    
+}
+
+
+@media screen and (min-width:481px) and (max-width:639px) {
+    
+    .founder-two-text{
+        color:white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        padding-right: 10px;
+    }
+
+
+    .founderOne-name{
+        min-width: 70%;
+       
+        border:1px solid blue;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+line-height: 15px;        
+    }
+
+
+}
+@media  screen and (min-width:640px) and (max-width:1076px){
+    .founder-two-text{
+        color:white;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-right: 10px;
+    }
+
+
+    .founderOne-name{
+        min-width: 70%;
+       
+        border:1px solid blue;
+        text-align: center;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 600;
+line-height: 15px;        
+    }
+    
+
+}
+
+@media screen and (min-width:1440px){
+    
+    .founderOne-name{
+        min-width: 70%;
+       
+        border:1px solid blue;
+        text-align: center;
+        color: white;
+        font-size: 1.2vw;
+        font-weight: 600;
+/* line-height: 25px;         */
+    }
+    
+    .founder-two-text{
+        color:white;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-right: 10px;
+    }
+
+    .founder-heading{
+        font-size: 1.8vw;
+        font-weight: 600;
+        text-align: center;
+        }
+
+    .founder-msg{
+        font-size: 1.1vw;
+        font-weight: 500;
+        font-family: poppins,sans-serif;
+        color:gray
+        
+        }
 }

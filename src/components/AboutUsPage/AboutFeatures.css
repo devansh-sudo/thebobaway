@@ -17,7 +17,7 @@ font-family: poppins,sans-serif;
 
 .about-btn{
 
-padding: 10px 10px 10px 10px;
+padding: 8px 8px 8px 8px;
 }
 
 
@@ -45,19 +45,18 @@ padding-left: 3vw;
     /* margin: auto; */
 }
 
-.about-part-2-button{
-  
-    width: 20vw;
-    
-    
-
-}
 
 .about-us-container-part-2{
 background-color: #f3efe6;
 padding: 10px;
 padding-top: 40px;
 }
+
+.about-part-2-button{
+  
+    width: 20vw;
+}
+
 .about-part-2-button button{
     border:1px solid black;
     /* padding: 3vw;
@@ -67,9 +66,9 @@ border-radius: 30px;
     font-weight: bold;
     font-size: 2.5vw; */
     /* margin-top: 20px; */
-    width: 15vw;
+    width: 12vw;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 1.8vw;
     border-radius: 12vw;
     background-color: rgb(230, 224, 224);
 }
@@ -114,6 +113,85 @@ font-weight: bold;
 
         padding: 5px 5px 5px 5px;
         font-size: small;
+        }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+    .about-features-heading-button{
+        display: flex;
+        flex-wrap: wrap;
+    
+    margin-top: .5vh;
+    font-family: poppins,sans-serif;
+    }
+    
+
+
+    .about-part-2-heading{
+        font-weight: 600;
+        font-size: 4.5vw;
+    padding-left: 3vw;
+    width: 100%;
+    }
+    .about-icon-heading{
+        font-weight: 600;
+        font-size: 4vw;
+    padding-left: 3vw;
+    }
+
+    .about-icon-text{
+        font-size: 2vw;
+        padding-left: 1vw;
+        font-weight: 550;
+        color:gray
+    }
+
+    .about-part-2-button{
+  
+        width: 60vw;
+    }
+    
+    .about-part-2-button button{
+        border:1px solid black;
+        /* padding: 3vw;
+    padding: 3vw;
+    height: 20px;
+    border-radius: 30px;
+        font-weight: bold;
+        font-size: 2.5vw; */
+        /* margin-top: 20px; */
+        width: 22vw;
+        font-weight: 600;
+        font-size: 2.8vw;
+        border-radius: 12vw;
+        background-color: rgb(230, 224, 224);
+    margin-left: 10vw;
+    }
+    .about-features-section{
+        display:none;
+    gap:1px;
+        margin-top: 5vh;
+    }
+    .about-features-section-single-div{
+    width: 30%;
+        
+    }
+    
+ 
+ 
+    .about-button-text{
+        color :red;
+    font-size: 4vw;
+    
+    font-weight: bold;
+    }    
+    .about-btn{
+
+        padding: 5px 5px 5px 5px;
+        font-size: 2vw;
         }
 
 }

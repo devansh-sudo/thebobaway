@@ -169,4 +169,86 @@ max-width: 35%;
 }
 
 
+@media screen and (max-width:480px) {
+
+    .about-part-1-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap:2vw;
+        
+        }
+        
+        .aboutheadingimg-div{
+            border-bottom: 1px solid black;
+            max-width: 60vw;
+            }
+            .aboutheadingimg-div img {
+                max-width: 60vw;
+            }
+            .about-intro-div{
+            margin: 1px;
+                /* border:1px solid red; */
+                margin-top: 3vh;
+                width: 100%;
+                font-weight: bold;
+                padding-left: 10px;
+            }
+            
+            .about-top-info{
+                margin-top: 4vh;
+                border-bottom: 1px solid black;
+                padding-bottom: 4vh;
+                font-size: 4.4vw;
+            }
+            
+            .about-user-info{
+                margin-top: 3vh;
+                display: flex;
+                gap:10%;
+            }
+            
+            .about-user-info{
+                color:#fe611d;
+                
+            }
+            .about-user-number{
+                font-size: 8vw;
+                 color:#fe611d;
+            }
+            .about-user-number-text{
+                font-size: 3vw;
+                color:black
+            
+            }
+            .chock-2-boba-img{
+             display: none;
+                /* margin-top: 10px; */
+                max-height: 160px;
+                /* border:1px solid red; */
+                align-items: end;
+                display: flex;
+                justify-content: end;
+                flex-flow: row-reverse;
+                max-width: 100%;
+                position: relative;
+                    /* margin-bottom: -8.5vh; */
+            }
+            
+            .chock-2-boba-img img{
+                display: none;
+               margin-bottom: -1px;
+               object-fit: contain;
+                /* border:1px solid green; */
+            /* max-height:150% ; */
+            max-width: 35%;
+            /* margin-bottom: -8rem; */
+            }
+            
+            
+
+    
+}
+
 
