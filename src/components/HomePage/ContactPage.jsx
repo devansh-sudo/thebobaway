@@ -106,7 +106,14 @@ export const ContactPage=()=>{
                   onChange={postUserData} />
 
                 <label className='form_lables' >Phone number</label >
-                <input className="form_inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No' value={userData.phoneNo}
+                <input className="form_inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No'  onKeyPress={(e) => {
+                      const onlyNumeric = /[0-9]/g;
+                      const isNumeric = onlyNumeric.test(e.key);
+                      const isMaxLength = e.target.value.length < 10;
+                      if (!isNumeric || !isMaxLength) {
+                        e.preventDefault();
+                      }
+                    }} value={userData.phoneNo}
                   onChange={postUserData} />
 
                 <label className='form_lables' >City</label >
