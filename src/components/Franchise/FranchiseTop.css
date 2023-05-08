@@ -1,0 +1,82 @@
+.fr-top-container{
+background-image: url("../../../public/founderbg.png");
+    display: flex;
+    justify-content: space-between;
+    
+padding: 30px 10px 10px 60px;
+}
+.fr-top-left{
+width: 52%;
+}
+.fr-top-heading{
+    padding-top: 60px;
+    font-size: 3.5vw;
+font-weight: 600;
+}
+.fr-top-info{
+    font-size: 1.6vw;
+    font-family: poppins,sans-serif;
+    font-weight: 500;
+    line-height:1.5em;
+    color:#818080;
+}
+@media screen and (min-width:1440px) {
+    .fr-top-heading{
+        font-size: 3vw;
+    font-weight: 600;
+    }   
+ 
+    
+
+    .fr-top-info{
+        font-size: 1.4vw;
+        font-family: poppins,sans-serif;
+        font-weight: 500;
+        line-height:1.5em;
+        color:#818080;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .fr-top-container{
+        background-image: url("../../../public/founderbg.png");
+            display: flex;
+         flex-wrap: wrap;
+            
+justify-content: center;
+padding: 1px 1px 1px 1px;
+        }
+
+        .fr-top-left{
+            width: 80%;
+            margin: auto;
+    
+        }
+
+        .fr-top-heading{
+            padding-top: 60px;
+            font-size: 6.5vw;
+        font-weight: 600;
+        }
+        .fr-top-info{
+            font-size: 4.6vw;
+            font-family: poppins,sans-serif;
+            font-weight: 500;
+            line-height:1.5em;
+            color:#818080;
+        }
+
+    }
+
+    @media screen and (min-width:481px) and (max-width:768px){
+
+        .fr-top-info{
+            font-size: 2.6vw;
+            font-family: poppins,sans-serif;
+            font-weight: 500;
+            line-height:1.5em;
+            color:#818080;
+        }
+
+    }

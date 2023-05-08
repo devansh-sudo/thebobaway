@@ -23,7 +23,7 @@ console.log(window.innerWidth)
           <div className="nav-text" id="for-hover">About Us</div>
         </Link>
         <div className="nav-text">Explore</div>
-        <div className="nav-text" > <a href="#contact"  id="for-hover" style={{ textDecoration: "none"  }}>Franchise</a></div>
+             <Link to="/franchise" style={{textDecoration:"none"}}><div className="nav-text" id="for-hover" >  Franchise</div></Link>
         <div className="nav-text">Menu</div>
         <div className="nav-contact nav-text">
           <a href="#contact" id="for-hover" style={{ textDecoration: "none"  }}>

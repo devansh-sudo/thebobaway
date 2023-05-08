@@ -1,0 +1,128 @@
+.franchise-info-container{
+padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+    gap: 10px;
+}
+.franchise-info-col-one{
+    width: 75%;
+    /* border:1px solid teal; */
+}
+
+.fr-heading-three{
+    font-size: 4vw;
+    font-weight: 700;
+}
+.franchise-info-col-two{
+    width: 25%;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.franchise-summery{
+font-size: 1.5vw;
+font-family: poppins,sans-serif;
+font-weight: 500;
+line-height:1.5em;
+color:#949494;
+}
+
+
+.fr-three-cup-img-container{
+ max-height: 100%;
+}
+
+.franchise-cup{
+    /* border:1px solid yellow; */
+    max-height: 63vh;
+    max-width: 25vw;
+
+}
+
+.fr-four-icon-container{
+display: flex;
+justify-content: space-between;
+gap:10px;
+padding: 30px 10px 10px 10px;
+}
+
+.franchise-icon{
+    max-height: 15vh;
+}
+
+@media screen and (min-width:1440px) {
+ 
+.fr-heading-three{
+    font-size: 3vw;
+    font-weight: 700;
+}
+.franchise-summery{
+    font-size: 1.1vw;
+    font-family: poppins,sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    color:#949494;
+    }
+    
+    .franchise-icon{
+        max-height: 13vh;
+    }
+
+    .franchise-cup{
+        /* border:1px solid yellow; */
+        max-height: 55vh;
+        max-width: 15vw;
+    
+    }
+    .franchise-info-col-two{
+        width: 25%;
+        /* border:1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        gap:5vh
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+ 
+    
+    .franchise-info-container{
+        padding: 15px;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* border:1px solid red; */
+            gap: 10px;
+        }
+        .franchise-info-col-one{
+            width: 100%;
+            
+        }
+        
+
+        .franchise-summery{
+            font-size: 1.2rem;
+            font-family: poppins,sans-serif;
+            font-weight: 500;
+            line-height: 1.4em;
+            color:#949494;
+            }
+            .fr-heading-three{
+                font-size: 5vw;
+                font-weight: 700;
+            }
+
+            .franchise-info-col-two{
+                width: 100%;
+                /* border:1px solid blue; */
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+
+        }

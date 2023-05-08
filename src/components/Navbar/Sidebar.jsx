@@ -22,6 +22,10 @@ const handleAbout=()=>{
   setOpen(false)
 }
 
+const handleFranchise=()=>{
+  navigate("/franchise")
+  setOpen(false)
+}
   return (
     <div style={{color:"white"}}>
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
@@ -29,7 +33,7 @@ const handleAbout=()=>{
       </Button>
       <Drawer title="Welcome" color="white" width="180px" style={{height:"100vh",backgroundColor:"#fe611d",color:"white"}}  placement="right"  onClose={onClose} open={open}>
         <div className="nav-slide-option" onClick={handleAbout} ><p>About Us</p></div>
-        <div className="nav-slide-option" onClick={handleAbout}><p>Franchise</p></div>
+        <div className="nav-slide-option" onClick={handleFranchise}><p>Franchise</p></div>
         <div className="nav-slide-option">
           <select className="nav-slide-explore" onClick={handleAbout}>
             <option className="nav-selector-option" onClick={handleAbout}>Explore</option>

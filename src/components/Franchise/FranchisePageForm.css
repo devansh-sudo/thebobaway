@@ -1,0 +1,140 @@
+/* Default styles */
+.form-container {
+  
+width:100%;
+height: 100%;
+    padding: 6rem 10px 7rem 10px;
+    gap: 0;
+    margin: 0;
+    }
+    
+    .left_col{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+    .right_col{
+      
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    width: 100%;  
+    }
+    .heading_div{
+      margin-top: 1rem;
+      margin: auto;
+    }
+    .reqst_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    max-width: 20ch;
+    }
+    .readmore_btn{
+      font-family: 'Poppins';
+    font-style: normal;
+      font-size: 18px;
+      margin-top: 2rem;
+      padding: 5px 15px 5px 15px;
+      border-radius: 25px;
+      background-color: transparent;
+      border: 1px solid black;
+    }
+    .img44_div {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    }
+     .img44{
+      position: absolute;
+      left: -5px;
+      margin-top: -35px;
+      max-width: 100%;
+      
+    } 
+    .contact_form{
+      border:1px solid gray;
+      width: auto;
+      height: 370px;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 5px;
+    }
+    .form_heading{
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    }
+    .form_lables{
+      font-size: 1.3rem;
+      font-family: 'Poppins';
+      margin-top: 10px;
+    }
+    .form_inputs{
+      padding: 5px;
+     width: 220px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-family: 'Poppins';
+      background-color: rgba(211, 211, 211, 0.214);
+    }
+    .submit_btn{
+      height: 30px;
+      width: 200px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      margin-top: 25px;
+      font-size: 1.3rem;
+      font-family: 'Poppins';
+  
+    color: #ffffff;
+    }
+  
+    .submit_btn:hover{
+      color:#fe611d;
+      background-color: white;
+    }
+  
+    .submitbtn_div{
+      text-align: center;
+      align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+    .img44{
+        position: relative;
+        left: -10px;
+       top:462px;
+       height: auto;
+       width: 25%;   
+      } 
+  .contact_form{
+    margin-top: 15px;
+  }
+  .reqst_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    max-width: 20ch;
+    }
+  
+    }
+    
+      
+     
+     
+      
+    
+    
+      
+      
+    
+      
