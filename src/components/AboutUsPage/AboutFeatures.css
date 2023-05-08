@@ -73,7 +73,7 @@ border-radius: 30px;
     background-color: rgb(230, 224, 224);
 }
 .about-button-text{
-    color :red;
+    
 font-size: 3vw;
 
 font-weight: bold;
@@ -106,14 +106,39 @@ font-weight: bold;
     }
 
     .about-part-2-button{
-        width: 20vw;   
+        width: 18vw;   
     }
     
     .about-btn{
 
-        padding: 5px 5px 5px 5px;
-        font-size: small;
+        padding: 5px 1px 5px 1px;
+        font-size: 5px;
         }
+
+        
+        
+        .about-part-2-button button{
+            border:1px solid black;
+            /* padding: 3vw;
+        padding: 3vw;
+        height: 20px;
+        border-radius: 30px;
+            font-weight: bold;
+            font-size: 2.5vw; */
+            /* margin-top: 20px; */
+            width: 9.2vw;
+            font-weight: 600;
+            font-size: 1.3vw;
+            border-radius: 12vw;
+            background-color: rgb(230, 224, 224);
+        }
+        .about-button-text{
+            
+        font-size: 2vw;
+        
+        font-weight: bold;
+        }
+
 
 }
 
