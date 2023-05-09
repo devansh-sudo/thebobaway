@@ -7,20 +7,34 @@ import { Image } from "react-bootstrap"
 export const ContactUsPage=()=>{
 
 
-    return (<div>
+    return (<div className="contact-container">
 
 <div className="contact-top-container">
     <div className="contact-top-col-left" >
-<div>
-    <div><Image /></div>
-    <div>
-        <p>LOCATION</p>
+<div className="co-icon-text-container">
+    <div><Image src="contact-location.png" /></div>
+    <div className="co-heading-text-container">
+        <p className="co-left-heading" >LOCATION</p>
         <p>3/4,Laxmi Enclave 2,Gajera Circle,Katargam,Surat</p>
     </div>
 </div>
 
+<div className="co-icon-text-container">
+    <div><Image src="contact-phone.png" /></div>
+    <div className="co-heading-text-container">
+        <p className="co-left-heading" >PHONE</p>
+        <p>+91 951878637</p>
     </div>
-    <div className="contact-top-col-left">
+</div>
+<div className="co-icon-text-container">
+    <div><Image src="contact-mail.png" /></div>
+    <div className="co-heading-text-container">
+        <p className="co-left-heading">EMAIL ADDRESS</p>
+        <p>bobatheway@gmail.com</p>
+    </div>
+</div>
+    </div>
+    <div className="contact-top-col-right">
         <ContactUsPageForm />
     </div>
 </div>
