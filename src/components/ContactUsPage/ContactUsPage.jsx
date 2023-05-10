@@ -7,7 +7,7 @@ import { Image } from "react-bootstrap"
 export const ContactUsPage=()=>{
 
 
-    return (<div className="contact-container">
+    return (<div className="contact-page-container">
 
 <div className="contact-top-container">
     <div className="contact-top-col-left" >
@@ -23,7 +23,7 @@ export const ContactUsPage=()=>{
     <div><Image src="contact-phone.png" /></div>
     <div className="co-heading-text-container">
         <p className="co-left-heading" >PHONE</p>
-        <p>+91 951878637</p>
+        <p>+91 9518785637</p>
     </div>
 </div>
 <div className="co-icon-text-container">
@@ -39,7 +39,7 @@ export const ContactUsPage=()=>{
     </div>
 </div>
         <div className="contact-us-map">
-        <BobaMap />
+        <BobaMap className="contact-page-map" />
         </div>
         
     </div>)

@@ -25,12 +25,10 @@ console.log(window.innerWidth)
         <div className="nav-text">Explore</div>
              <Link to="/franchise" style={{textDecoration:"none"}}><div className="nav-text" id="for-hover" >  Franchise</div></Link>
         <div className="nav-text">Menu</div>
-        <div className="nav-contact nav-text">
-          <a href="#contact" id="for-hover" style={{ textDecoration: "none"  }}>
+        <Link to="/contact" style={{textDecoration:"none"}}><div className="nav-contact nav-text" id="for-hover">
             Connect Us
-          </a>
         </div>
-        
+        </Link>
 
       </div>
      <div className="nav-burger"><Sidebar /></div>

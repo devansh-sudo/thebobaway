@@ -26,6 +26,12 @@ const handleFranchise=()=>{
   navigate("/franchise")
   setOpen(false)
 }
+
+const handleContact=()=>{
+  navigate("/contact")
+  setOpen(false)
+}
+
   return (
     <div style={{color:"white"}}>
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
@@ -44,7 +50,7 @@ const handleFranchise=()=>{
           </select>
         </div>
         <div className="nav-slide-option" onClick={handleAbout}><p>Menu</p></div>
-        <div className="nav-slide-option" onClick={handleAbout}><p>Contact Us</p></div>
+        <div className="nav-slide-option" onClick={handleContact}><p>Contact Us</p></div>
       </Drawer>
     </div>
   );
