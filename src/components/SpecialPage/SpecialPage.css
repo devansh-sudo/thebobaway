@@ -1,0 +1,23 @@
+.special-div-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: auto;
+    
+}
+.special-heading{
+font-size: 4vw;
+text-align: center;
+font-weight: 600;
+margin:10px;
+}
+@media screen and (max-width:740px) {
+ 
+    
+    .special-heading{
+        font-size: 4vw;
+        text-align: center;
+        font-weight: 600;
+        margin:10px;
+        }
+}
