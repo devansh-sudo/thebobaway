@@ -4,6 +4,35 @@ import "./Sidebar.css"
 
 import { Button, Drawer } from 'antd';
 import { Link, useNavigate } from "react-router-dom";
+import {  Dropdown } from "antd";
+
+
+const items = [
+  {
+    key: '1',
+    label: (
+      <Link to="/outlet"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+        Outlets
+      </Link>
+    ),
+  },
+  {
+    key: '2',
+    label: (
+      <Link to="/happycustomer" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+       Happy Customer
+      </Link>
+    ),
+  },
+  {
+    key: '3',
+    label: (
+      <Link to="/special" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+        Special One
+      </Link>
+    ),
+  },
+];
 
 
 const Sidebar = () => {
@@ -32,6 +61,20 @@ const handleContact=()=>{
   setOpen(false)
 }
 
+const handleOutlet=()=>{
+  navigate("/outlet")
+  setOpen(false)
+}
+
+const handleCustomer=()=>{
+  navigate("/happycustomer")
+  setOpen(false)
+}
+
+const handleSpecial=()=>{
+  navigate("/special")
+  setOpen(false)
+}
   return (
     <div style={{color:"white"}}>
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
@@ -41,13 +84,17 @@ const handleContact=()=>{
         <div className="nav-slide-option" onClick={handleAbout} ><p>About Us</p></div>
         <div className="nav-slide-option" onClick={handleFranchise}><p>Franchise</p></div>
         <div className="nav-slide-option">
-          <select className="nav-slide-explore" onClick={handleAbout}>
-            <option className="nav-selector-option" onClick={handleAbout}>Explore</option>
-            <option className="nav-selector-option" onClick={handleAbout}>Outlets</option>
-            <option className="nav-selector-option" onClick={handleAbout}>Happy Customers</option>
-            <option className="nav-selector-option" onClick={handleAbout}>Special's Ones</option>
+          {/* <select className="nav-slide-explore">
+            <option className="nav-selector-option" >Explore</option>
+            <option className="nav-selector-option" onClick={handleOutlet}>Outlets</option>
+            <option className="nav-selector-option" onClick={handleCustomer}>Happy Customers</option>
+            <option className="nav-selector-option" onClick={handleSpecial}>Special's Ones</option>
             <option className="nav-selector-option" onClick={handleAbout}>Press Release</option>
-          </select>
+          </select> */}
+                         <Dropdown menu={{ items }} arrow="true" placement="bottom" >
+                   <div   style={{backgroundColor:"transparent",border:"none",outline:"none",fontWeight:"600"}}>Explore</div>
+      </Dropdown>
+    
         </div>
         <div className="nav-slide-option" onClick={handleAbout}><p>Menu</p></div>
         <div className="nav-slide-option" onClick={handleContact}><p>Contact Us</p></div>

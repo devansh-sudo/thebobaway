@@ -1,0 +1,17 @@
+.all-page-container {
+    height: 100%;
+    max-height: 500px;
+    overflow: auto;
+  }
+  
+  .react-pdf__Page {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .react-pdf__Page__canvas {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
