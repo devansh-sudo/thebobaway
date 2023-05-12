@@ -19,7 +19,7 @@ const items = [
   {
     key: '2',
     label: (
-      <Link to="/happycustomer" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+      <Link to="/happycustomer"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
        Happy Customer
       </Link>
     ),
@@ -71,10 +71,14 @@ const handleCustomer=()=>{
   setOpen(false)
 }
 
-const handleSpecial=()=>{
-  navigate("/special")
-  setOpen(false)
-}
+const handleMenu = () => {
+  window.open("menu.pdf", '_blank');
+};
+
+// const handleMenu=()=>{
+//   navigate("/menu")
+//   setOpen(false)
+// }
   return (
     <div style={{color:"white"}}>
       <Button type="primary" className="nav-sidebar-button"  onClick={showDrawer}>
@@ -92,11 +96,11 @@ const handleSpecial=()=>{
             <option className="nav-selector-option" onClick={handleAbout}>Press Release</option>
           </select> */}
                          <Dropdown menu={{ items }} arrow="true" placement="bottom" >
-                   <div   style={{backgroundColor:"transparent",border:"none",outline:"none",fontWeight:"600"}}>Explore</div>
+                   <div   style={{backgroundColor:"transparent",border:"none",outline:"none",fontWeight:"600"}} >Explore</div>
       </Dropdown>
     
         </div>
-        <div className="nav-slide-option" onClick={handleAbout}><p>Menu</p></div>
+        <div className="nav-slide-option" onClick={handleMenu}><p>Menu</p></div>
         <div className="nav-slide-option" onClick={handleContact}><p>Contact Us</p></div>
       </Drawer>
     </div>
