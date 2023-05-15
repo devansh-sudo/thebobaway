@@ -1,25 +1,9 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import MenuPdf from './MenuPdf';
-import samplePDF from "../../menu.pdf";
-// import "./MenuPage.css"
-import  PDFViewer from "./PdfButton"
+import React from 'react';
 
-import dish from "../../menu.pdf"
 const Menu = () => {
-
-  window.open(dish, '_blank');
-
   return (
-    <div>
-      <div className="all-page-container">
-      
-  
-    
-  
-      </div>
-    </div>
+    <iframe src="menu.pdf" style={{ width: '100%', height: '500px' }} />
   );
-};
+}
 
 export default Menu;
