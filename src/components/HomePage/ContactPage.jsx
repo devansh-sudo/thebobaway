@@ -101,7 +101,7 @@ export const ContactPage=()=>{
                 value={userData.name}
                 onChange={postUserData} 
                 />
-                <label className='form_lables' >Email</label >
+                <label className='form_lables'>Email</label >
                 <input className="form_inputs"   id="" name="email" type="email" placeholder='Email' value={userData.email}
                   onChange={postUserData} />
 
@@ -109,7 +109,8 @@ export const ContactPage=()=>{
                 <input className="form_inputs"   id="" name="phoneNo" type="number"  placeholder='Mob.No'  onKeyPress={(e) => {
                       const onlyNumeric = /[0-9]/g;
                       const isNumeric = onlyNumeric.test(e.key);
-                      const isMaxLength = e.target.value.length < 10;
+                      const isMaxLength = e.target.value.length < 10 ;
+                      
                       if (!isNumeric || !isMaxLength) {
                         e.preventDefault();
                       }
