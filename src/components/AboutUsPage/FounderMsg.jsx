@@ -33,16 +33,16 @@ export const FounderMsg = () => {
                 <div className="abt-founder-two-img-text">
                     
 <div className="founder-two-name-cup-container">
-                <span>
+                {/* <span>
                 <Image className="founder-cup-two" src="IMG-0214.png" alt="cup-img" />
             </span>
                         <span className="founder-two-text-span">
-                            <p className="founder-two-text">Soham Geet <br /> FOUNDER</p>
-                        </span> 
+                            <p className="founder-two-text">Soham <br /> FOUNDER</p>
+                        </span>  */}
                         </div>
-             <spam className="founderavatar-two">
+             {/* <spam className="founderavatar-two">
             <img className="founderavatar-two-img" src="founderimg.png" alt="Soham-img" />
-            </spam>
+            </spam> */}
                     
                 </div>
                 <div className="chock-flow-img-div">

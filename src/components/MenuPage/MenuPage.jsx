@@ -6,6 +6,7 @@ const Menu = () => {
     
 <div> 
   <Image src="menu_page-0001.jpg" fluid />
+  <br />
   <Image src="menu_page-0002.jpg" fluid />
 </div>
 

@@ -72,7 +72,9 @@ const handleCustomer=()=>{
 }
 
 const handleMenu = () => {
-  window.open("menu.pdf", '_blank');
+  // window.open("menu.pdf", '_blank');
+  navigate("/menu")
+  setOpen(false)
 };
 
 // const handleMenu=()=>{
