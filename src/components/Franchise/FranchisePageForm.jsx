@@ -82,7 +82,7 @@ export const FranchisePageForm=()=>{
             <Col className="right_col">  
             <form method="POST">
               <div className='contact_form'>
-              <h2 className="form_heading">Opt A Franchise</h2>
+              <h2 className="form_heading" style={{color:"black"}} >Opt A Franchise</h2>
                 <label className='form_lables'>Name</label >
                 <input type="text" className="form_inputs" placeholder='Name'  id="" 
                 name="name"  
