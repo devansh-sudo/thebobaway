@@ -23,7 +23,7 @@ export const AllRoutes=()=>{
 <Route path="/menu" element={<Menu />} />
 <Route path="/happycustomer" element={<HappyCustomerPage />} />
 
-<Route path="*" element={<HomePage />} />
+{/* <Route path="*" element={<HomePage />} /> */}
 </Routes>
     </div>)
 }
