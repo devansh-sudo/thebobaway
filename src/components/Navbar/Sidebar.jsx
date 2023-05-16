@@ -7,35 +7,77 @@ import { Link, useNavigate } from "react-router-dom";
 import {  Dropdown } from "antd";
 
 
-const items = [
-  {
-    key: '1',
-    label: (
-      <Link to="/outlet"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
-        Outlets
-      </Link>
-    ),
-  },
-  {
-    key: '2',
-    label: (
-      <Link to="/happycustomer"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
-       Happy Customer
-      </Link>
-    ),
-  },
-  {
-    key: '3',
-    label: (
-      <Link to="/special" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
-        Special One
-      </Link>
-    ),
-  },
-];
+// const items = [
+//   {
+//     key: '1',
+//     label: (
+//       <div className="handleOutlet"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+//         Outlets
+//       </div>
+//     ),
+//   },
+//   {
+//     key: '2',
+//     label: (
+//       <Link to="/happycustomer"  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+//        Happy Customer
+//       </Link>
+//     ),
+//   },
+//   {
+//     key: '3',
+//     label: (
+//       <Link to="/special" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+//         Special One
+//       </Link>
+//     ),
+//   },
+// ];
 
 
 const Sidebar = () => {
+
+
+  const handleOutlet=()=>{
+    navigate("/outlet")
+    setOpen(false)
+  }
+
+  const handleCustomer=()=>{
+    navigate("/happycustomer")
+    setOpen(false)
+  }
+  
+
+  const items = [
+    {
+      key: '1',
+      label: (
+        <div onClick={handleOutlet}  style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+          Outlets
+        </div>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+        <div  onClick={handleCustomer} style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+         Happy Customer
+        </div>
+      ),
+    },
+    {
+      key: '3',
+      label: (
+        <Link to="/special" style={{textDecoration:"none",color:"orangered",fontWeight:"600",fontSize:"large"}}>
+          Special One
+        </Link>
+      ),
+    },
+  ];
+  
+
+
   const [open, setOpen] = useState(false);
 const navigate=useNavigate()
   const showDrawer = () => {
@@ -58,16 +100,6 @@ const handleFranchise=()=>{
 
 const handleContact=()=>{
   navigate("/contact")
-  setOpen(false)
-}
-
-const handleOutlet=()=>{
-  navigate("/outlet")
-  setOpen(false)
-}
-
-const handleCustomer=()=>{
-  navigate("/happycustomer")
   setOpen(false)
 }
 
@@ -98,9 +130,8 @@ const handleMenu = () => {
             <option className="nav-selector-option" onClick={handleAbout}>Press Release</option>
           </select> */}
                          <Dropdown menu={{ items }} arrow="true" placement="bottom" >
-                   <div   style={{backgroundColor:"transparent",border:"none",outline:"none",fontWeight:"600"}} >Explore</div>
-      </Dropdown>
-    
+                   <div   style={{backgroundColor:"transparent",border:"none",outline:"none",fontWeight:"600"}}>Explore</div>
+      </Dropdown>    
         </div>
         <div className="nav-slide-option" onClick={handleMenu}><p>Menu</p></div>
         <div className="nav-slide-option" onClick={handleContact}><p>Contact Us</p></div>
