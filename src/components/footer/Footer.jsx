@@ -45,7 +45,7 @@ export const Footer = () => {
         </div>
 
         <div className="copyright-privacy">
-        <div><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="">Reclamehub</a></p></div>
+        <div><p>Copyright Ⓒ 2023 thebobaway.com Design & Develop by <a className="company-link" href="https://reclamehub.com/">Reclamehub</a></p></div>
                 <div><p>Privacy Policy · Terms of service</p></div>
             
             

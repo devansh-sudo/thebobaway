@@ -8,8 +8,7 @@
 #for-hover{
   color:white
 }
-#for-hover:hover{
-  
+#for-hover:hover{  
 color:black
 }
 
@@ -53,7 +52,6 @@ color:black
 }
 
 .all-section {
-
   width: 45%;
   /* font-family: "Popins", sans-serif; */
   font-size: 20px;
